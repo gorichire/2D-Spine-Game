@@ -15,7 +15,7 @@ C:/Users/worn4/OneDrive/바탕 화면/unity/2D Spine
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53010
+53970
 Successfully changed project path to: C:/Users/worn4/OneDrive/바탕 화면/unity/2D Spine
 C:/Users/worn4/OneDrive/바탕 화면/unity/2D Spine
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/worn4/OneDrive/바탕 화면/unity/2D Spine
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9652] Host "[IP] 192.168.17.116 [Port] 0 [Flags] 2 [Guid] 805417443 [EditorId] 805417443 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1IUMS59) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [508] Host "[IP] 192.168.17.116 [Port] 0 [Flags] 2 [Guid] 1893261791 [EditorId] 1893261791 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1IUMS59) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [9652] Host "[IP] 192.168.17.116 [Port] 0 [Flags] 2 [Guid] 805417443 [EditorId] 805417443 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1IUMS59) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [508] Host "[IP] 192.168.17.116 [Port] 0 [Flags] 2 [Guid] 1893261791 [EditorId] 1893261791 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1IUMS59) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 53.33 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 59.48 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
 [Subsystems] Discovering subsystems at path C:/Program Files/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -69,51 +69,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/2022.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56624
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/2022.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/2022.3.7f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.037777 seconds.
-- Loaded All Assemblies, in  0.829 seconds
+Registered in 0.039797 seconds.
+- Loaded All Assemblies, in  0.936 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 390 ms
+Android Extension - Scanning For ADB Devices 559 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.961 seconds
-Domain Reload Profiling: 1788ms
-	BeginReloadAssembly (359ms)
+- Finished resetting the current domain, in  1.195 seconds
+Domain Reload Profiling: 2129ms
+	BeginReloadAssembly (367ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (57ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (120ms)
-	LoadAllAssembliesAndSetupDomain (274ms)
-		LoadAssemblies (357ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (153ms)
+	LoadAllAssembliesAndSetupDomain (328ms)
+		LoadAssemblies (366ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (269ms)
-			TypeCache.Refresh (266ms)
-				TypeCache.ScanAssembly (245ms)
+		AnalyzeDomain (322ms)
+			TypeCache.Refresh (318ms)
+				TypeCache.ScanAssembly (290ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (962ms)
+	FinalizeReload (1196ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (866ms)
+		SetupLoadedEditorAssemblies (1086ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (611ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (805ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (153ms)
-			ProcessInitializeOnLoadMethodAttributes (93ms)
+			ProcessInitializeOnLoadAttributes (183ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -123,439 +123,730 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\worn4\OneDrive\바탕 화면\unity\2D Spine\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\worn4\OneDrive\바탕 화면\unity\2D Spine\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.342 seconds
-Refreshing native plugins compatible for Editor in 7.48 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.303 seconds
+Refreshing native plugins compatible for Editor in 7.46 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.968 seconds
-Domain Reload Profiling: 2306ms
-	BeginReloadAssembly (239ms)
+- Finished resetting the current domain, in  0.856 seconds
+Domain Reload Profiling: 2154ms
+	BeginReloadAssembly (251ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (60ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (68ms)
-	LoadAllAssembliesAndSetupDomain (951ms)
-		LoadAssemblies (702ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (899ms)
+		LoadAssemblies (742ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (378ms)
-			TypeCache.Refresh (315ms)
-				TypeCache.ScanAssembly (258ms)
-			ScanForSourceGeneratedMonoScriptInfo (52ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (969ms)
+		AnalyzeDomain (306ms)
+			TypeCache.Refresh (262ms)
+				TypeCache.ScanAssembly (229ms)
+			ScanForSourceGeneratedMonoScriptInfo (33ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (857ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (699ms)
+		SetupLoadedEditorAssemblies (589ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (58ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (152ms)
-			ProcessInitializeOnLoadAttributes (418ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (375ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.23 seconds
-Refreshing native plugins compatible for Editor in 12.06 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
+Refreshing native plugins compatible for Editor in 5.22 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4000 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 67 unused Assets / (173.4 KB). Loaded Objects now: 4461.
 Memory consumption went from 145.9 MB to 145.7 MB.
-Total: 8.870900 ms (FindLiveObjects: 0.587800 ms CreateObjectMapping: 0.299600 ms MarkObjects: 7.576600 ms  DeleteObjects: 0.404700 ms)
+Total: 5.116900 ms (FindLiveObjects: 0.397100 ms CreateObjectMapping: 0.144600 ms MarkObjects: 4.322700 ms  DeleteObjects: 0.250500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2806.851025 seconds.
-  path: Assets/Animation/wrenAnimator.controller
+  Time since last request: 4477.109844 seconds.
+  path: Assets/sprite/canary/Bubble/canarycaptions_bubble_3.png
+  artifactKey: Guid(ab550f07f3469d0469a9e105020f5068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Bubble/canarycaptions_bubble_3.png using Guid(ab550f07f3469d0469a9e105020f5068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26531603052311bf4682288d145fd1ed') in 0.121626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/sprite/canary/Bubble/canarycaptions_bubble_in_2.png
+  artifactKey: Guid(48d67982a90095345bd8462b8447bb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Bubble/canarycaptions_bubble_in_2.png using Guid(48d67982a90095345bd8462b8447bb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154ca5cdee64071cb771142a85b63ff5') in 0.041189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/sprite/canary/Bubble/canarycaptions_bubble_out.png
+  artifactKey: Guid(70f6c59e0e31d9248ab87b3854d65f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Bubble/canarycaptions_bubble_out.png using Guid(70f6c59e0e31d9248ab87b3854d65f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0312145e8615d8f28cb377ad02ea40') in 0.040257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/sprite/canary/Bubble
+  artifactKey: Guid(6f5a6c7c5c02eb64aa95f10973743bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Bubble using Guid(6f5a6c7c5c02eb64aa95f10973743bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab97f11314edf07f78dd4e8452639eb') in 0.000571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/sprite/canary/Bubble/canarycaptions_bubble_in_1.png
+  artifactKey: Guid(6dccf8180622e2946b1ba68a0f851bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Bubble/canarycaptions_bubble_in_1.png using Guid(6dccf8180622e2946b1ba68a0f851bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62b3d9e2d805001488d89fbb921a586') in 0.036992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/sprite/canary/Bubble/canarycaptions_bubble_in_3.png
+  artifactKey: Guid(306dceca1b0b25045b64112e3b35de89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Bubble/canarycaptions_bubble_in_3.png using Guid(306dceca1b0b25045b64112e3b35de89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6c046141c6290eadecbd4a821311ea') in 0.042665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/sprite/canary/Bubble/canarycaptions_bubble_2.png
+  artifactKey: Guid(918d451cfff47be48b0779c98b54c680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Bubble/canarycaptions_bubble_2.png using Guid(918d451cfff47be48b0779c98b54c680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7780bd3632ebb145e5d69e1e52d327d9') in 0.036867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/sprite/canary/Bubble/canarycaptions_bubble_1.png
+  artifactKey: Guid(a911a3fe19f9f8841bbb18a1ad6c6fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Bubble/canarycaptions_bubble_1.png using Guid(a911a3fe19f9f8841bbb18a1ad6c6fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8e219eed39f1137e88a8c94339c76a') in 0.039597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 58.453395 seconds.
+  path: Assets/Animation/Bubble
+  artifactKey: Guid(f11c4da85350c714bad50978b6e1e34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Bubble using Guid(f11c4da85350c714bad50978b6e1e34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc11850a5ba74975d37fbd15e06e5a2a') in 0.001341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.536495 seconds.
+  path: Assets/Animation/parrot
+  artifactKey: Guid(9c92e0a06fa4ae346b04a00a9640a770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/parrot using Guid(9c92e0a06fa4ae346b04a00a9640a770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130e39137b0a0cca4f3239fcf2b52aea') in 0.001214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.893673 seconds.
+  path: Assets/Animation/wren
+  artifactKey: Guid(fbb3f4aaf97bfa943b764297e7b023b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/wren using Guid(fbb3f4aaf97bfa943b764297e7b023b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2b1842421846500efe224df87b605d') in 0.001218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.855550 seconds.
+  path: Assets/Animation/canary
+  artifactKey: Guid(9c92e0a06fa4ae346b04a00a9640a770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/canary using Guid(9c92e0a06fa4ae346b04a00a9640a770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d004a0876064535582d5a002cda8b98') in 0.001146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.649904 seconds.
+  path: Assets/Animation/wren_idle.anim
+  artifactKey: Guid(53cbd5d3b3e0bc944b742deb209c5a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/wren_idle.anim using Guid(53cbd5d3b3e0bc944b742deb209c5a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78787873c386cda896851c1fc91d29e') in 0.022771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 384.436833 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.000814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.502101 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(13ffe8847c3264e44b610d10562ce5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(13ffe8847c3264e44b610d10562ce5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d430c6a5131bd87c4878e896b75cd8') in 0.001237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.624488 seconds.
+  path: Assets/Scripts/CanaryBubble.cs
+  artifactKey: Guid(e4319cec97f98924d892b6ebd26f958c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CanaryBubble.cs using Guid(e4319cec97f98924d892b6ebd26f958c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4234315a2b6ef93d482ba07f967c465') in 0.001317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\worn4\OneDrive\바탕 화면\unity\2D Spine\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\worn4\OneDrive\바탕 화면\unity\2D Spine\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.658 seconds
+Refreshing native plugins compatible for Editor in 8.96 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.023 seconds
+Domain Reload Profiling: 7672ms
+	BeginReloadAssembly (609ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (78ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (220ms)
+	RebuildCommonClasses (92ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (846ms)
+		LoadAssemblies (1020ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (67ms)
+			TypeCache.Refresh (26ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (6024ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1706ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (197ms)
+			SetLoadedEditorAssemblies (32ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (231ms)
+			ProcessInitializeOnLoadAttributes (1096ms)
+			ProcessInitializeOnLoadMethodAttributes (143ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 6.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3992 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (145.5 KB). Loaded Objects now: 4480.
+Memory consumption went from 143.2 MB to 143.1 MB.
+Total: 9.028400 ms (FindLiveObjects: 1.033700 ms CreateObjectMapping: 0.348300 ms MarkObjects: 7.424100 ms  DeleteObjects: 0.219700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 66.814334 seconds.
+  path: Assets/Scripts/CanaryBubble.cs
+  artifactKey: Guid(e4319cec97f98924d892b6ebd26f958c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CanaryBubble.cs using Guid(e4319cec97f98924d892b6ebd26f958c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c2f8b41cae220613291421565cf9e4') in 0.004068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2005.063762 seconds.
+  path: Assets/sprite/wren/Bubble
+  artifactKey: Guid(50dff16aaf545884b94897d9f4697fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Bubble using Guid(50dff16aaf545884b94897d9f4697fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cef10d93bea39de102004aaad13fb44') in 0.043712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 23.865720 seconds.
+  path: Assets/sprite/canary/Ca_Bubble
+  artifactKey: Guid(6f5a6c7c5c02eb64aa95f10973743bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Ca_Bubble using Guid(6f5a6c7c5c02eb64aa95f10973743bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2937c77580e80e45b09b08f7a707a4') in 0.002513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.967764 seconds.
+  path: Assets/sprite/wren/Wr_Bubble
+  artifactKey: Guid(50dff16aaf545884b94897d9f4697fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Wr_Bubble using Guid(50dff16aaf545884b94897d9f4697fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7694c0c971d4d698d4cb8ca39e8d6d') in 0.002141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.610721 seconds.
+  path: Assets/sprite/wren/Wr_Bubble/wrencaptions_bubble_1.png
+  artifactKey: Guid(b94b871a35468e746b1d82066b4d0f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Wr_Bubble/wrencaptions_bubble_1.png using Guid(b94b871a35468e746b1d82066b4d0f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73baa4e98e5fb639674f7940e7119896') in 1.146600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/sprite/wren/Wr_Bubble/wrencaptions_bubble_out.png
+  artifactKey: Guid(b80e43f4700536d4b806ab0e5144f786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Wr_Bubble/wrencaptions_bubble_out.png using Guid(b80e43f4700536d4b806ab0e5144f786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bda64f574951092ca4229fcfeae024b') in 0.054795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/sprite/wren/Wr_Bubble/wrencaptions_bubble_in_1.png
+  artifactKey: Guid(f9d6917a7ab825141b18a3c18cb8c628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Wr_Bubble/wrencaptions_bubble_in_1.png using Guid(f9d6917a7ab825141b18a3c18cb8c628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9f601cd8cbfeadeebdbe11f2ad6e33') in 0.047757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/sprite/wren/Wr_Bubble/wrencaptions_bubble_in_2.png
+  artifactKey: Guid(a2676deef57873b4f8725d86b10c3f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Wr_Bubble/wrencaptions_bubble_in_2.png using Guid(a2676deef57873b4f8725d86b10c3f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8051c94269ef2b9e5aa8a46fc558e663') in 0.051996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/sprite/wren/Wr_Bubble/wrencaptions_bubble_3.png
+  artifactKey: Guid(486f3f98b4f614549a65415fd208502e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Wr_Bubble/wrencaptions_bubble_3.png using Guid(486f3f98b4f614549a65415fd208502e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89061976852d81d65f516576dd2b264') in 0.045002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/sprite/wren/Wr_Bubble/wrencaptions_bubble_2.png
+  artifactKey: Guid(080a2718f8582fc428aeb42ee5d51fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Wr_Bubble/wrencaptions_bubble_2.png using Guid(080a2718f8582fc428aeb42ee5d51fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c281abf9228eeb03485020001fe8edf3') in 0.049570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/sprite/wren/Wr_Bubble/wrencaptions_bubble_in_3.png
+  artifactKey: Guid(e680784e94f32d54f81f1a8330827a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Wr_Bubble/wrencaptions_bubble_in_3.png using Guid(e680784e94f32d54f81f1a8330827a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2375657aafdbda504bfd3137524f72b1') in 0.046626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 83.804284 seconds.
+  path: Assets/Animation/wren/wrenAnimator.controller
   artifactKey: Guid(7c57ffdfcb5cc8f4ab092883272faf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/wrenAnimator.controller using Guid(7c57ffdfcb5cc8f4ab092883272faf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9120857054f02504ed2b1f0719032bbe') in 0.028673 seconds
+Start importing Assets/Animation/wren/wrenAnimator.controller using Guid(7c57ffdfcb5cc8f4ab092883272faf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5fe360894d47f9396d615913a9ee8b') in 0.030128 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 8
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 7.90 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5 unused Assets / (120.6 KB). Loaded Objects now: 4462.
-Memory consumption went from 81.6 MB to 81.4 MB.
-Total: 6.241400 ms (FindLiveObjects: 0.436400 ms CreateObjectMapping: 0.177200 ms MarkObjects: 5.445800 ms  DeleteObjects: 0.180200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\worn4\OneDrive\바탕 화면\unity\2D Spine\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\worn4\OneDrive\바탕 화면\unity\2D Spine\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.757 seconds
-Refreshing native plugins compatible for Editor in 7.47 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.774 seconds
-Domain Reload Profiling: 2527ms
-	BeginReloadAssembly (251ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (20ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (58ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (375ms)
-		LoadAssemblies (493ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1776ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (730ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (58ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (131ms)
-			ProcessInitializeOnLoadAttributes (456ms)
-			ProcessInitializeOnLoadMethodAttributes (68ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (24ms)
-Refreshing native plugins compatible for Editor in 7.30 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3992 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (145.3 KB). Loaded Objects now: 4467.
-Memory consumption went from 143.3 MB to 143.2 MB.
-Total: 6.775500 ms (FindLiveObjects: 0.852000 ms CreateObjectMapping: 0.479700 ms MarkObjects: 5.117500 ms  DeleteObjects: 0.322700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\worn4\OneDrive\바탕 화면\unity\2D Spine\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\worn4\OneDrive\바탕 화면\unity\2D Spine\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.641 seconds
-Refreshing native plugins compatible for Editor in 8.57 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.242 seconds
-Domain Reload Profiling: 1881ms
-	BeginReloadAssembly (218ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (19ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (316ms)
-		LoadAssemblies (408ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (1243ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (524ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (46ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (98ms)
-			ProcessInitializeOnLoadAttributes (324ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (28ms)
-Refreshing native plugins compatible for Editor in 6.16 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3992 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (145.5 KB). Loaded Objects now: 4471.
-Memory consumption went from 143.3 MB to 143.2 MB.
-Total: 5.800400 ms (FindLiveObjects: 0.787300 ms CreateObjectMapping: 0.164600 ms MarkObjects: 4.417100 ms  DeleteObjects: 0.426300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
 Received Import Request.
-  Time since last request: 865.755454 seconds.
-  path: Assets/sprite/wren/wren_neutral.png
-  artifactKey: Guid(b486043f2c57af546806af2af73ee2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprite/wren/wren_neutral.png using Guid(b486043f2c57af546806af2af73ee2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a014a67c4eae16becc9f911526dc57') in 0.182248 seconds
+  Time since last request: 316.302828 seconds.
+  path: Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_exercise_1.png
+  artifactKey: Guid(ca15d76011772964e8c5b5868ea96545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_exercise_1.png using Guid(ca15d76011772964e8c5b5868ea96545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd936685f2e9ceedfa05d9a98fa6a23c6') in 0.052430 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\worn4\OneDrive\바탕 화면\unity\2D Spine\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\worn4\OneDrive\바탕 화면\unity\2D Spine\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.859 seconds
-Refreshing native plugins compatible for Editor in 9.99 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.101 seconds
-Domain Reload Profiling: 3955ms
-	BeginReloadAssembly (281ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (19ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (90ms)
-	RebuildCommonClasses (55ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (453ms)
-		LoadAssemblies (564ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (18ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (3102ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (810ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (72ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (142ms)
-			ProcessInitializeOnLoadAttributes (470ms)
-			ProcessInitializeOnLoadMethodAttributes (105ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (26ms)
-Refreshing native plugins compatible for Editor in 7.23 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3991 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (145.5 KB). Loaded Objects now: 4479.
-Memory consumption went from 143.1 MB to 143.0 MB.
-Total: 7.363500 ms (FindLiveObjects: 0.973500 ms CreateObjectMapping: 0.195600 ms MarkObjects: 5.822700 ms  DeleteObjects: 0.369700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
 Received Import Request.
-  Time since last request: 162.992171 seconds.
-  path: Assets/sprite/wren/wren_neutral.png
-  artifactKey: Guid(b486043f2c57af546806af2af73ee2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprite/wren/wren_neutral.png using Guid(b486043f2c57af546806af2af73ee2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e58628144c1cab93f60b08af9d4771c') in 0.146062 seconds
+  Time since last request: 0.000037 seconds.
+  path: Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_exercise_3.png
+  artifactKey: Guid(58078528de50d914daee2420d603473d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_exercise_3.png using Guid(58078528de50d914daee2420d603473d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07125a5c1a00419c52b387d8970c538') in 0.097062 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\worn4\OneDrive\바탕 화면\unity\2D Spine\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\worn4\OneDrive\바탕 화면\unity\2D Spine\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.745 seconds
-Refreshing native plugins compatible for Editor in 9.81 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.892 seconds
-Domain Reload Profiling: 2633ms
-	BeginReloadAssembly (246ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (19ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (56ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (378ms)
-		LoadAssemblies (489ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (20ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1893ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (753ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (68ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (140ms)
-			ProcessInitializeOnLoadAttributes (457ms)
-			ProcessInitializeOnLoadMethodAttributes (69ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (23ms)
-Refreshing native plugins compatible for Editor in 6.23 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3991 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (145.5 KB). Loaded Objects now: 4483.
-Memory consumption went from 143.1 MB to 143.0 MB.
-Total: 6.121100 ms (FindLiveObjects: 0.475700 ms CreateObjectMapping: 0.137800 ms MarkObjects: 4.809300 ms  DeleteObjects: 0.695300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_exercise_final_2.png
+  artifactKey: Guid(7144b39735825f44f832235c6c20966c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_exercise_final_2.png using Guid(7144b39735825f44f832235c6c20966c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25036682d5d1acf9d7b0ca158dd01159') in 0.050953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\worn4\OneDrive\바탕 화면\unity\2D Spine\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\worn4\OneDrive\바탕 화면\unity\2D Spine\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.773 seconds
-Refreshing native plugins compatible for Editor in 7.50 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.913 seconds
-Domain Reload Profiling: 2682ms
-	BeginReloadAssembly (265ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (19ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (56ms)
-	RebuildCommonClasses (51ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (387ms)
-		LoadAssemblies (515ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1914ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (732ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (51ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (130ms)
-			ProcessInitializeOnLoadAttributes (471ms)
-			ProcessInitializeOnLoadMethodAttributes (64ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
-Refreshing native plugins compatible for Editor in 5.66 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3992 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (145.4 KB). Loaded Objects now: 4487.
-Memory consumption went from 143.4 MB to 143.3 MB.
-Total: 5.807800 ms (FindLiveObjects: 0.528300 ms CreateObjectMapping: 0.303700 ms MarkObjects: 4.652500 ms  DeleteObjects: 0.320900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_family_1.png
+  artifactKey: Guid(c3ce07a9bb411a0459664a70e34c416f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_family_1.png using Guid(c3ce07a9bb411a0459664a70e34c416f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9adb2c69c55d6598d028cb7ca8dde08') in 0.057733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_family_3.png
+  artifactKey: Guid(7d9b59da0fc5b8e4fab6bc2cdf12d77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_family_3.png using Guid(7d9b59da0fc5b8e4fab6bc2cdf12d77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf5877700fb7a6a2e64f1b1e24279f7') in 0.060102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_family_final_1.png
+  artifactKey: Guid(73186b839eb0d9c4fa8f3d8c97b17a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_family_final_1.png using Guid(73186b839eb0d9c4fa8f3d8c97b17a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2503b083081fea5e05de10a660c4dd43') in 0.069368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_exercise_final_1.png
+  artifactKey: Guid(6648fb40b91b64e44bfe3a1f1a681e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_exercise_final_1.png using Guid(6648fb40b91b64e44bfe3a1f1a681e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e4c2f0804f7a1866fd65fbfe5ce6bb') in 0.065982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_family_2.png
+  artifactKey: Guid(d5805577ad408af4eb98636fe964c94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_family_2.png using Guid(d5805577ad408af4eb98636fe964c94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b6bfbc6c0e4f80fa95927529ced978') in 0.046914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_exercise_2.png
+  artifactKey: Guid(38ada8ec2a5be6f44b046282bba55770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_exercise_2.png using Guid(38ada8ec2a5be6f44b046282bba55770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba20a32f93bf8531ffb5999aeb5acc4') in 0.058243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.468736 seconds.
+  path: Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_family_final_2.png
+  artifactKey: Guid(6c298238b7af39447b8a6ac906933608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_family_final_2.png using Guid(6c298238b7af39447b8a6ac906933608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485f2598c86a24d1ac2e0944c31ea557') in 0.083967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_food_final_1.png
+  artifactKey: Guid(f6aa9b77f92a73e4ea7cab50878b8277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_food_final_1.png using Guid(f6aa9b77f92a73e4ea7cab50878b8277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b460ee34c28085ee980a6ff8ee1a5d') in 0.052667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_singing_1.png
+  artifactKey: Guid(45b77480d2329e74995e591bd4bfe4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_singing_1.png using Guid(45b77480d2329e74995e591bd4bfe4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae8835768b80618337d21dfa1d96200') in 0.053254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_food_final_2.png
+  artifactKey: Guid(3158bbaf9a8c70945a0c82deb44f1673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_food_final_2.png using Guid(3158bbaf9a8c70945a0c82deb44f1673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c37a4ccb7690b233e0a195022eb7cf') in 0.042124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_talking_1.png
+  artifactKey: Guid(5bd91bd17fd8ab04bab3d233e65a7c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_talking_1.png using Guid(5bd91bd17fd8ab04bab3d233e65a7c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c856a06f6c82cbf9f63b0e8b4da029') in 0.043217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_singing_2.png
+  artifactKey: Guid(de6a7ed42449dde43b5c3ed969f5eead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_singing_2.png using Guid(de6a7ed42449dde43b5c3ed969f5eead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed071380c9ac20a7a8d2410574386117') in 0.052910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_food_3.png
+  artifactKey: Guid(74d9a1955e65a944fb4ef6de052f8793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_food_3.png using Guid(74d9a1955e65a944fb4ef6de052f8793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6fb4106f906fc918013aa317ee726c') in 0.045619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_singing_final.png
+  artifactKey: Guid(2c621cfb06896b64499b2c7dec58d72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_singing_final.png using Guid(2c621cfb06896b64499b2c7dec58d72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a426f7f10702c0dd8fed41d8d101020') in 0.046650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_food_1.png
+  artifactKey: Guid(6ef8789e2d69e3545a849a42b5989961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_food_1.png using Guid(6ef8789e2d69e3545a849a42b5989961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632b952fdbdc6d5fb2b28ee140574b48') in 0.040828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_talking_2.png
+  artifactKey: Guid(6014026444f6012499ea4626a17ffe24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_talking_2.png using Guid(6014026444f6012499ea4626a17ffe24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47bec7e430c8edd221fcb7eede5fe86d') in 0.045107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_singing_3.png
+  artifactKey: Guid(8a6b225b6cd334745822babc126445c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_singing_3.png using Guid(8a6b225b6cd334745822babc126445c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612904969245879fc4beb13973fdcaad') in 0.045076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_food_2.png
+  artifactKey: Guid(4dc2aba669cd36945a801d5a6d788acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_food_2.png using Guid(4dc2aba669cd36945a801d5a6d788acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c44ae3820ce055ebc944f0f478485c6') in 0.044384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_talking_final.png
+  artifactKey: Guid(ffd7ff556209a7941a1a665c7fe13ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_talking_final.png using Guid(ffd7ff556209a7941a1a665c7fe13ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8775088934cc10cf140f920269cb1df') in 0.044967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_talking_3.png
+  artifactKey: Guid(1e2dd11cb59e7b7428bc741e06ab2b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Ca_Bubble/canarycaptions_drawing_talking_3.png using Guid(1e2dd11cb59e7b7428bc741e06ab2b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f41dec4eb43ce866ab09e2d450a731') in 0.041949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.842018 seconds.
+  path: Assets/sprite/canary/Ca_Bubble/canarycaptions_screech.png
+  artifactKey: Guid(bd92b44cad95bd244b0be665cceca8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/canary/Ca_Bubble/canarycaptions_screech.png using Guid(bd92b44cad95bd244b0be665cceca8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edac94b6ca69b60cab1785bb03d5a0de') in 0.047189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 16.825883 seconds.
+  path: Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_exercise_1.png
+  artifactKey: Guid(ed2088a099601cd4a98b9927c06a86e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_exercise_1.png using Guid(ed2088a099601cd4a98b9927c06a86e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4967a93e03880d22e59b4e7c5cb86ce') in 0.161828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001513 seconds.
+  path: Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_family_final_1.png
+  artifactKey: Guid(0e02b1ad53b49c645a74a1c4d40a497d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_family_final_1.png using Guid(0e02b1ad53b49c645a74a1c4d40a497d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593937315fbaab7dc6586687a977c627') in 0.081059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_exercise_3.png
+  artifactKey: Guid(cb77dad290aa32b4d82176bcebf9af06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_exercise_3.png using Guid(cb77dad290aa32b4d82176bcebf9af06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6633f3ba9c8cbd42edacc0191d7d13db') in 0.054857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_family_1.png
+  artifactKey: Guid(c0f74dde2a8b2b343b6bf8af1894bb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_family_1.png using Guid(c0f74dde2a8b2b343b6bf8af1894bb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0633b6076d13c76851cec8300716444d') in 0.043169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_family_2.png
+  artifactKey: Guid(4758fa32980f8f54e826f95c1ae6b87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_family_2.png using Guid(4758fa32980f8f54e826f95c1ae6b87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38fae83b9858a4bc0d0e2c1261c2e22a') in 0.043131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_family_3.png
+  artifactKey: Guid(edc127d432a4a5c4180551df190cf88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_family_3.png using Guid(edc127d432a4a5c4180551df190cf88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a632fcd5a694819dc9bb8a40cdfe0446') in 0.039948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_exercise_final_1.png
+  artifactKey: Guid(aed558b0d82a1e041bed28889b39c439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_exercise_final_1.png using Guid(aed558b0d82a1e041bed28889b39c439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd332e681b92183e1d3502fb04b46d796') in 0.045329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_exercise_2.png
+  artifactKey: Guid(4f094289527a6ba44a2d7e959ad4e018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_exercise_2.png using Guid(4f094289527a6ba44a2d7e959ad4e018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4424aedbedc5ba5685bb4b124223cdab') in 0.046876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_exercise_final_2.png
+  artifactKey: Guid(43ac12545627341429bd46c89781f22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_exercise_final_2.png using Guid(43ac12545627341429bd46c89781f22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac88f6e6b040ee4a538b95e2d11cc05') in 0.041709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.340181 seconds.
+  path: Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_family_final_2.png
+  artifactKey: Guid(eabda8f6890ad05459530401d70d3b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_family_final_2.png using Guid(eabda8f6890ad05459530401d70d3b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6101d680a29295f6eb51313a8f9277a0') in 0.042425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_food_2.png
+  artifactKey: Guid(b6fafd0e802664749be7e6b16d8a4849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_food_2.png using Guid(b6fafd0e802664749be7e6b16d8a4849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85c172410ebeb9f11fb2ec243cdbc62') in 0.041824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_singing_3.png
+  artifactKey: Guid(3b2d0fa6e7a87b5458f7cadf6dd0940e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_singing_3.png using Guid(3b2d0fa6e7a87b5458f7cadf6dd0940e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03d6c98a88c70d4d5e43d5c6428a0fe') in 0.040408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_talking_final.png
+  artifactKey: Guid(4fc1f477ecc3dbe46beb0a0c8a496b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_talking_final.png using Guid(4fc1f477ecc3dbe46beb0a0c8a496b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0231d8c3524fd15525d6c8987efa245e') in 0.038788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_talking_3.png
+  artifactKey: Guid(32e62e4829eb02b48b256616bad1acbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_talking_3.png using Guid(32e62e4829eb02b48b256616bad1acbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc816f146a0b2b6c0d0ac25eafde514') in 0.119173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_talking_2.png
+  artifactKey: Guid(b84a4be9e07a45c4da93554b0ca6fa1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_talking_2.png using Guid(b84a4be9e07a45c4da93554b0ca6fa1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4966a1d7a379bba67d5c1a248b13e670') in 0.055301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_talking_1.png
+  artifactKey: Guid(6c963b8a4c5698049bdc43a1d6b53848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_talking_1.png using Guid(6c963b8a4c5698049bdc43a1d6b53848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b778eecc76897fccfe9e82afdc23ac92') in 0.042243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_food_final_1.png
+  artifactKey: Guid(84ec398b159129f4d875635c529c26ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_food_final_1.png using Guid(84ec398b159129f4d875635c529c26ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527795f846912b0febc04c5d8c0d274b') in 0.043534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_singing_final.png
+  artifactKey: Guid(648db085cc4c4de4fa4ef477493aae31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_singing_final.png using Guid(648db085cc4c4de4fa4ef477493aae31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5610d195882d129d0196ae3925290b') in 0.043990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_food_3.png
+  artifactKey: Guid(b4852e847e4c0b647b652e33a2b9c1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_food_3.png using Guid(b4852e847e4c0b647b652e33a2b9c1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da17b4d1a5769c2ab322847d382f9ca1') in 0.052746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_food_1.png
+  artifactKey: Guid(86eeb4ed3d4aa5a4b89cd87e26af0452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_food_1.png using Guid(86eeb4ed3d4aa5a4b89cd87e26af0452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9783a5ca3ba7a52daf7dd1f58a4923') in 0.059526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_singing_1.png
+  artifactKey: Guid(30f585b82d15ab045807dae7df6079f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_singing_1.png using Guid(30f585b82d15ab045807dae7df6079f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316f776a2d6b3a5fe84c0ef27464947c') in 0.037430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_singing_2.png
+  artifactKey: Guid(24a938714f5fe6e45a3a4e02707655eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_singing_2.png using Guid(24a938714f5fe6e45a3a4e02707655eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c43a8d375bdac604562641a7fb75644') in 0.040577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_food_final_2.png
+  artifactKey: Guid(18d6ce77dd554a54bb1824b71e3ba3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/wren/Wr_Bubble/wrencaptions_drawing_food_final_2.png using Guid(18d6ce77dd554a54bb1824b71e3ba3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78a763a82505421ee62bd9bcce9f60f') in 0.044468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
