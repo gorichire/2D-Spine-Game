@@ -154,7 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 170050825}
   aniCanary: {fileID: 1680200331}
-  perfectWindow: 0.2666666
+  perfectWindow: 0.25
   goodWindow: 0.5
 --- !u!4 &77741738
 Transform:
@@ -165,7 +165,7 @@ Transform:
   m_GameObject: {fileID: 77741736}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.6235611, y: 1.2521424, z: 0.039860833}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -231,8 +231,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e83670ec1e37204d8893a4c06e21885, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  frameTime: 0.03333334
+  frameTime: 0.01667
   aniWren: {fileID: 1082777443}
+  inputJudge: {fileID: 77741737}
 --- !u!4 &170050826
 Transform:
   m_ObjectHideFlags: 0
@@ -242,7 +243,7 @@ Transform:
   m_GameObject: {fileID: 170050824}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.6235611, y: 1.2521424, z: 0.039860833}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -289,6 +290,7 @@ GameObject:
   m_Component:
   - component: {fileID: 311005904}
   - component: {fileID: 311005905}
+  - component: {fileID: 311005906}
   m_Layer: 0
   m_Name: wrencaptions bubble
   m_TagString: Untagged
@@ -363,6 +365,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &311005906
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 311005903}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ee6424769a84ef742baff57217c672c1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &322334546
 GameObject:
   m_ObjectHideFlags: 0
@@ -750,7 +773,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 964987462}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -47.373}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -39.22818}
 --- !u!1 &812554788
 GameObject:
   m_ObjectHideFlags: 0
@@ -999,17 +1022,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_RootBone: {fileID: 1531735682}
-  m_BoneTransforms:
-  - {fileID: 1531735682}
-  - {fileID: 1511377376}
-  - {fileID: 1579518293}
-  - {fileID: 87057294}
-  - {fileID: 2021598457}
-  - {fileID: 1330216881}
-  - {fileID: 413695196}
-  - {fileID: 1323723409}
-  - {fileID: 1168004067}
-  - {fileID: 1954838089}
+  m_BoneTransforms: []
   m_Bounds:
     m_Center: {x: -3.496805, y: -1.6987977, z: 0}
     m_Extent: {x: 1.396805, y: 1.0122824, z: 0}
@@ -1366,6 +1379,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1581630694}
   - component: {fileID: 1581630695}
+  - component: {fileID: 1581630696}
   m_Layer: 0
   m_Name: canarycaptions bubble
   m_TagString: Untagged
@@ -1440,6 +1454,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1581630696
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581630693}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fb921e34b6f926641bf2a6072aac99cd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1680200323
 GameObject:
   m_ObjectHideFlags: 0

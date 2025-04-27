@@ -7,9 +7,15 @@ public class InputJudge : MonoBehaviour
     public RhythmTimingController controller;
     public Animator aniCanary;
 
-    // 30fps 기준 1프레임 = 약 0.033초
-    public float perfectWindow = 8f / 30f;
-    public float goodWindow = 15f / 30f;
+    private bool alreadyInput = false; // 입력했는지 체크
+
+    public float perfectWindow = 15f / 60f;
+    public float goodWindow = 30f / 60f;
+
+    public void ResetInput()
+    {
+        alreadyInput = false;
+    }
 
     void Update()
     {
@@ -27,8 +33,18 @@ public class InputJudge : MonoBehaviour
             if (!controller.isInputTiming)
             {
                 Debug.Log("Miss! (타이밍 아님)");
+                aniCanary.SetTrigger("miss_sing");
                 return;
             }
+
+            if (alreadyInput)
+            {
+                Debug.Log("이미 입력했음 (무시)");
+                aniCanary.SetTrigger("miss_sing");
+                return;
+            }
+
+            alreadyInput = true; // 입력했다고 표시
 
             float diff = Mathf.Abs(Time.time - controller.targetInputTime);
 
@@ -39,11 +55,13 @@ public class InputJudge : MonoBehaviour
             }
             else if (diff <= goodWindow)
             {
+                aniCanary.SetTrigger("good_sing");
                 Debug.Log("Good!");
             }
             else
             {
                 Debug.Log("Miss!");
+                aniCanary.SetTrigger("miss_sing");
             }
         }
     }

@@ -5,9 +5,10 @@ using UnityEngine;
 public class RhythmTimingController : MonoBehaviour
 {
 
-    public float frameTime = 1f / 30f; // 30fps 기준
+    public float frameTime = 1f / 60f; // 60fps 기준
     public Animator aniWren;
 
+    public InputJudge inputJudge;
     public bool isInputTiming { get; private set; } = false;
     public float targetInputTime { get; private set; } = 0f;
 
@@ -34,28 +35,20 @@ public class RhythmTimingController : MonoBehaviour
     {
         isPlaying = true;
 
-        yield return WaitFrames(8);
+        yield return WaitFrames(36);
         aniWren.SetTrigger("sing");
-        Debug.Log("NPC 울기 1");
-        yield return WaitFrames(1);
 
-        yield return WaitFrames(16);
+        yield return WaitFrames(32);
         aniWren.SetTrigger("sing");
-        Debug.Log("NPC 울기 2");
-        yield return WaitFrames(1);
-
-        yield return WaitFrames(12); // 기준점보다 1프레임 전
 
         isInputTiming = true;
-        yield return WaitFrames(4); // Fast 구간
 
+        yield return WaitFrames(26); // 나머지 Good 구간
         targetInputTime = Time.time;
-        Debug.Log("정확한 입력 타이밍 (패턴1)");
+        yield return WaitFrames(26); 
 
-        yield return WaitFrames(4); // Slow 구간
+        inputJudge.ResetInput();
         isInputTiming = false;
-
-        yield return WaitFrames(1); // 실제 플레이어 울기 연출
         isPlaying = false;
     }
 
@@ -63,35 +56,28 @@ public class RhythmTimingController : MonoBehaviour
     {
         isPlaying = true;
 
-        yield return WaitFrames(8);
+        yield return WaitFrames(16);
         aniWren.SetTrigger("sing");
-        Debug.Log("NPC 울기 1");
-        yield return WaitFrames(1);
 
-        yield return WaitFrames(7);
+        yield return WaitFrames(16);
         aniWren.SetTrigger("sing");
-        Debug.Log("NPC 울기 2");
-        yield return WaitFrames(1);
 
-        yield return WaitFrames(7);
+        yield return WaitFrames(18);
         aniWren.SetTrigger("sing");
-        Debug.Log("NPC 울기 3");
-        yield return WaitFrames(1);
 
-        yield return WaitFrames(16); // 쉬는 타이밍
-
-        yield return WaitFrames(12); // 기준점보다 1프레임 전
+        yield return WaitFrames(30); // 쉬는 타이밍
 
         isInputTiming = true;
-        yield return WaitFrames(4); // Fast 구간
 
+        yield return WaitFrames(26);
+
+        Debug.Log("asdasd)");
         targetInputTime = Time.time;
-        Debug.Log("정확한 입력 타이밍 (패턴2)");
 
-        yield return WaitFrames(4); // Slow 구간
+        yield return WaitFrames(26);
+
+        inputJudge.ResetInput();
         isInputTiming = false;
-
-        yield return WaitFrames(1);
         isPlaying = false;
     }
 
