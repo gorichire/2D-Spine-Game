@@ -7,6 +7,8 @@ public class RhythmTimingController : MonoBehaviour
 
     public float frameTime = 1f / 60f; // 60fps 기준
     public Animator aniWren;
+    public WrenBubble wrenBubble;
+    public CanaryBubble canaryBubble;
 
     public InputJudge inputJudge;
     public bool isInputTiming { get; private set; } = false;
@@ -37,6 +39,7 @@ public class RhythmTimingController : MonoBehaviour
 
         yield return WaitFrames(36);
         aniWren.SetTrigger("sing");
+        wrenBubble.PlayNext();
 
         yield return WaitFrames(32);
         aniWren.SetTrigger("sing");
@@ -50,28 +53,29 @@ public class RhythmTimingController : MonoBehaviour
         inputJudge.ResetInput();
         isInputTiming = false;
         isPlaying = false;
+        canaryBubble.AdvanceSprite();
     }
 
     IEnumerator PlayPattern2Coroutine()
     {
         isPlaying = true;
 
-        yield return WaitFrames(16);
+        yield return WaitFrames(12);
         aniWren.SetTrigger("sing");
 
-        yield return WaitFrames(16);
+        yield return WaitFrames(12);
         aniWren.SetTrigger("sing");
 
-        yield return WaitFrames(18);
+        yield return WaitFrames(14);
         aniWren.SetTrigger("sing");
+        wrenBubble.PlayNext();
 
-        yield return WaitFrames(30); // 쉬는 타이밍
+        yield return WaitFrames(26); // 쉬는 타이밍
 
         isInputTiming = true;
 
         yield return WaitFrames(26);
 
-        Debug.Log("asdasd)");
         targetInputTime = Time.time;
 
         yield return WaitFrames(26);
@@ -79,6 +83,7 @@ public class RhythmTimingController : MonoBehaviour
         inputJudge.ResetInput();
         isInputTiming = false;
         isPlaying = false;
+        canaryBubble.AdvanceSprite();
     }
 
     IEnumerator WaitFrames(int frameCount)

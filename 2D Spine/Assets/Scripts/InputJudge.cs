@@ -6,6 +6,8 @@ public class InputJudge : MonoBehaviour
 {
     public RhythmTimingController controller;
     public Animator aniCanary;
+    public Animator aniWren;
+    public CanaryBubble canaryBubble;
 
     private bool alreadyInput = false; // 입력했는지 체크
 
@@ -34,6 +36,8 @@ public class InputJudge : MonoBehaviour
             {
                 Debug.Log("Miss! (타이밍 아님)");
                 aniCanary.SetTrigger("miss_sing");
+                aniWren.SetTrigger("angry");
+                canaryBubble.JudgeMiss();
                 return;
             }
 
@@ -41,6 +45,8 @@ public class InputJudge : MonoBehaviour
             {
                 Debug.Log("이미 입력했음 (무시)");
                 aniCanary.SetTrigger("miss_sing");
+                aniWren.SetTrigger("angry");
+                canaryBubble.JudgeMiss();
                 return;
             }
 
@@ -52,16 +58,29 @@ public class InputJudge : MonoBehaviour
             {
                 aniCanary.SetTrigger("sing");
                 Debug.Log("Perfect!");
+                if (canaryBubble.CurrentFrameIndex == 3)
+                {
+                    aniWren.SetTrigger("giggle");
+                }
+                else
+                {
+                    aniWren.SetTrigger("happy");
+                }
+                canaryBubble.JudgePerfectOrGood();
             }
             else if (diff <= goodWindow)
             {
                 aniCanary.SetTrigger("good_sing");
                 Debug.Log("Good!");
+                aniWren.SetTrigger("good");
+                canaryBubble.JudgePerfectOrGood();
             }
             else
             {
                 Debug.Log("Miss!");
                 aniCanary.SetTrigger("miss_sing");
+                aniWren.SetTrigger("angry");
+                canaryBubble.JudgeMiss();
             }
         }
     }
