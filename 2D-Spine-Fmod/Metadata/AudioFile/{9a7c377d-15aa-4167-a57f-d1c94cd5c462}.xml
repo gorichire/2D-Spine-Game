@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{9a7c377d-15aa-4167-a57f-d1c94cd5c462}">
+		<property name="assetPath">
+			<value>SFX/game_boink.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.68619047619047624</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6a973974-8732-40f7-b803-31c2b0f14f94}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -49,7 +49,7 @@ public class CanaryBubble : MonoBehaviour
         if (ca_Bubble.activeSelf)
         {
             ca_aniBubble.SetTrigger("close");
-            StartCoroutine(DeactivateBubbleAfterDelay()); // ★ 닫는 애니 끝나고 꺼야 함
+            StartCoroutine(DeactivateBubbleAfterDelay()); // 닫는 애니 끝나고 꺼야 함
         }
 
         StartCoroutine(ShowScratch());
@@ -57,9 +57,9 @@ public class CanaryBubble : MonoBehaviour
 
     private IEnumerator ShowSpriteAfterOpen()
     {
-        
-        spriteRenderer.sprite = ca_allSprites[storyLines[currentStoryIndex][currentFrameIndex]];
         yield return new WaitForSeconds(0.1f);
+        spriteRenderer.sprite = ca_allSprites[storyLines[currentStoryIndex][currentFrameIndex]];
+        
     }
 
     private IEnumerator ShowScratch()
@@ -90,13 +90,14 @@ public class CanaryBubble : MonoBehaviour
         yield return new WaitForSeconds(1f); // 마지막 스프라이트 1초 보여주기
 
         ca_aniBubble.SetTrigger("close");
-        yield return new WaitForSeconds(0.3f); // 닫는 애니 끝날 때까지 기다리기 (0.3초 정도)
+        yield return new WaitForSeconds(0.2f); // 닫는 애니 끝날 때까지 기다리기 (0.3초 정도)
 
         ca_Bubble.SetActive(false);
         ca_Story.SetActive(false);
 
         currentFrameIndex = 0;
         currentStoryIndex++;
+        spriteRenderer.sprite = null;
     }
 
     private IEnumerator DeactivateBubbleAfterDelay()
@@ -106,4 +107,5 @@ public class CanaryBubble : MonoBehaviour
         ca_Bubble.SetActive(false);
         ca_Story.SetActive(false);
     }
+
 }

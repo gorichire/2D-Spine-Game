@@ -46,8 +46,9 @@ public class WrenBubble : MonoBehaviour
 
     private IEnumerator ShowSpriteAfterOpenAnimation()
     {
+        yield return new WaitForSeconds(0.1f);
         spriteRenderer.sprite = allSprites[storyLines[currentStoryIndex][currentFrameIndex]];
-        yield return new WaitForSeconds(0.2f); // 스프라이트 말풍선 애니메이션 싱크 맞추기
+
     }
 
     private void AdvanceSpriteImmediately()
@@ -76,6 +77,7 @@ public class WrenBubble : MonoBehaviour
         yield return new WaitForSeconds(0.2f);
         Bubble.gameObject.SetActive(false);
         gameObject.SetActive(false);
+        spriteRenderer.sprite = null;
 
     }
 }

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{a91d8d75-b385-489c-ab81-35d2ea1574e8}">
+		<property name="assetPath">
+			<value>Music/Bits &amp; Bops Demo OST - Title Theme.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>85.054693877551017</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6a973974-8732-40f7-b803-31c2b0f14f94}</destination>
+		</relationship>
+	</object>
+</objects>
