@@ -1,3 +1,4 @@
+using FMODUnity;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,8 +19,9 @@ public class RhythmTimingController : MonoBehaviour
 
     void Start()
     {
-        
+        StartCoroutine(PlayBGM());
     }
+
 
     public void PlayPattern1()
     {
@@ -33,11 +35,16 @@ public class RhythmTimingController : MonoBehaviour
             StartCoroutine(PlayPattern2Coroutine());
     }
 
-    IEnumerator PlayPattern1Coroutine()
+    IEnumerator PlayBGM()
+    {
+        yield return WaitFrames(460);
+        AudioManager.instance.PlayerOneShot(FMODEvents.instance.MeetTweetBGM, this.transform.position);
+    }
+        IEnumerator PlayPattern1Coroutine()
     {
         isPlaying = true;
 
-        yield return WaitFrames(36);
+        yield return WaitFrames(10);
         aniWren.SetTrigger("sing");
         wrenBubble.PlayNext();
 
@@ -53,14 +60,14 @@ public class RhythmTimingController : MonoBehaviour
         inputJudge.ResetInput();
         isInputTiming = false;
         isPlaying = false;
-        canaryBubble.AdvanceSprite();
+        canaryBubble.FrameIndexPlus();
     }
 
     IEnumerator PlayPattern2Coroutine()
     {
         isPlaying = true;
 
-        yield return WaitFrames(12);
+        yield return WaitFrames(10);
         aniWren.SetTrigger("sing");
 
         yield return WaitFrames(12);
@@ -83,7 +90,7 @@ public class RhythmTimingController : MonoBehaviour
         inputJudge.ResetInput();
         isInputTiming = false;
         isPlaying = false;
-        canaryBubble.AdvanceSprite();
+        canaryBubble.FrameIndexPlus();
     }
 
     IEnumerator WaitFrames(int frameCount)

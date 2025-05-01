@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{e419b76b-58fc-404f-a12c-9b90b457860a}">
 		<property name="name">
-			<value>New Event</value>
+			<value>Tweet</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{11c6ec61-c3de-4525-93c9-372749e46289}</destination>
+			<destination>{42b72093-27aa-444e-98dc-216244b29687}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{a33737a1-639d-4604-9b5f-dbbfc76ac9f1}</destination>
@@ -27,6 +27,9 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{156cdcdf-6d7f-4f0b-93d0-c6eb9a668b3a}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{a7bd010b-6555-43df-87d7-32113fd965c3}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{a33737a1-639d-4604-9b5f-dbbfc76ac9f1}">
@@ -73,7 +76,7 @@
 	</object>
 	<object class="SingleSound" id="{c90fa1e4-9715-4ed6-b0d1-3fdad2c296a3}">
 		<property name="length">
-			<value>0.95999999999999996</value>
+			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{75f806b3-8965-4f82-8cd8-5447ebe17c0a}</destination>

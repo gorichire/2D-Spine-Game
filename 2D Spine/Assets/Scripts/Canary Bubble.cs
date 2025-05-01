@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CanaryBubble : MonoBehaviour
 {
+
     public SpriteRenderer spriteRenderer;
     public Sprite[] ca_allSprites;
     public Animator ca_aniBubble;
@@ -31,6 +32,7 @@ public class CanaryBubble : MonoBehaviour
 
     public void JudgePerfectOrGood()
     {
+        AudioManager.instance.PlayerOneShot(FMODEvents.instance.playerTweetSound, this.transform.position);
         if (!ca_Bubble.activeSelf)
         {
             ca_Story.SetActive(true);
@@ -46,6 +48,7 @@ public class CanaryBubble : MonoBehaviour
 
     public void JudgeMiss()
     {
+        AudioManager.instance.PlayerOneShot(FMODEvents.instance.playerScreechSound, this.transform.position);
         if (ca_Bubble.activeSelf)
         {
             ca_aniBubble.SetTrigger("close");
@@ -83,13 +86,25 @@ public class CanaryBubble : MonoBehaviour
         }
     }
 
+    public void FrameIndexPlus()
+    {
+        currentFrameIndex++;
+        if (currentFrameIndex >= storyLines[currentStoryIndex].Length)
+        {
+            StartCoroutine(CloseBubbleAfterDelay());
+        }
+    }
+
     private IEnumerator CloseBubbleAfterDelay()
     {
         spriteRenderer.sprite = ca_allSprites[storyLines[currentStoryIndex][storyLines[currentStoryIndex].Length - 1]];
 
         yield return new WaitForSeconds(1f); // 마지막 스프라이트 1초 보여주기
 
-        ca_aniBubble.SetTrigger("close");
+        if (ca_Bubble.activeSelf)
+        {
+            ca_aniBubble.SetTrigger("close");
+        }
         yield return new WaitForSeconds(0.2f); // 닫는 애니 끝날 때까지 기다리기 (0.3초 정도)
 
         ca_Bubble.SetActive(false);
