@@ -38,7 +38,8 @@ public class RhythmTimingController : MonoBehaviour
     IEnumerator PlayBGM()
     {
         yield return WaitFrames(460);
-        AudioManager.instance.PlayerOneShot(FMODEvents.instance.MeetTweetBGM, this.transform.position);
+        //AudioManager.instance.PlayerOneShot(AudioManager.instance.musicEvent, this.transform.position);
+        AudioManager.instance.musicInstance.start();
     }
         IEnumerator PlayPattern1Coroutine()
     {

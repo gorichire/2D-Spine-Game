@@ -233,6 +233,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1691713f4080674ea06df6e8e14d845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <musicEvent>k__BackingField:
+    Guid:
+      Data1: -86699008
+      Data2: 1289504762
+      Data3: 1465388165
+      Data4: -1181089522
+    Path: event:/BGM/Meet & Tweet
 --- !u!4 &112198613
 Transform:
   m_ObjectHideFlags: 0
@@ -1905,13 +1912,6 @@ MonoBehaviour:
       Data3: 758499722
       Data4: 446551624
     Path: event:/FPX/NPC/Pattern2
-  <MeetTweetBGM>k__BackingField:
-    Guid:
-      Data1: -86699008
-      Data2: 1289504762
-      Data3: 1465388165
-      Data4: -1181089522
-    Path: event:/BGM/Meet & Tweet
   <SongSelectBGM>k__BackingField:
     Guid:
       Data1: -1782820924

@@ -35,10 +35,10 @@ MonoBehaviour:
   Path: ../2D-Spine-Fmod/Build/Desktop/BGM.bank
   Name: BGM
   StudioPath: bank:/BGM
-  lastModified: 638816191932524076
+  lastModified: 638817967011593608
   FileSizes:
   - Name: Desktop
-    Value: 1280192
+    Value: 1280288
   Exists: 1
 --- !u!114 &-4317075666347264176
 MonoBehaviour:
@@ -171,7 +171,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -1358724805569595803}
   cacheVersion: 131847
-  cacheTime: 638816191932524076
+  cacheTime: 638817967011593608
   SerializableEventsDict:
   - key: event:/BGM/Meet & Tweet
     index: 0

@@ -16,7 +16,7 @@ public class FMODEvents : MonoBehaviour
 
     [field: Header("BGM")]
 
-    [field: SerializeField] public EventReference MeetTweetBGM { get; private set; }
+    //[field: SerializeField] public EventReference MeetTweetBGM { get; private set; }
     [field: SerializeField] public EventReference SongSelectBGM { get; private set; }
 
 
