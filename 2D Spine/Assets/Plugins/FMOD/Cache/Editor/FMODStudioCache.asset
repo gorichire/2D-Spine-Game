@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: ../2D-Spine-Fmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638822283055657868
+  lastModified: 638817331357407289
   FileSizes:
   - Name: Desktop
     Value: 1074
@@ -35,10 +35,10 @@ MonoBehaviour:
   Path: ../2D-Spine-Fmod/Build/Desktop/BGM.bank
   Name: BGM
   StudioPath: bank:/BGM
-  lastModified: 638822265633124939
+  lastModified: 638822662296588892
   FileSizes:
   - Name: Desktop
-    Value: 1281248
+    Value: 1281280
   Exists: 1
 --- !u!114 &-4317075666347264176
 MonoBehaviour:
@@ -66,7 +66,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 89573
+  Length: 95000
 --- !u!114 &-4259515479152083702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,7 +109,7 @@ MonoBehaviour:
   Path: ../2D-Spine-Fmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638822283055683192
+  lastModified: 638822536387488865
   FileSizes:
   - Name: Desktop
     Value: 1156
@@ -140,7 +140,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 8464
+  Length: 7264
 --- !u!114 &-544395842862413224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -199,7 +199,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -1358724805569595803}
   cacheVersion: 131847
-  cacheTime: 638822290624616691
+  cacheTime: 638822669524729706
   SerializableEventsDict:
   - key: event:/BGM/Meet & Tweet
     index: 0
@@ -284,7 +284,7 @@ MonoBehaviour:
   Path: ../2D-Spine-Fmod/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638822290624616691
+  lastModified: 638822669524729706
   FileSizes:
   - Name: Desktop
     Value: 112192

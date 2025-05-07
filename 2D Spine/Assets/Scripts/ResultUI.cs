@@ -14,6 +14,8 @@ public class ResultUI : MonoBehaviour
     public Sprite[] resultSprites;
     public Sprite[] resultSprites2;
 
+    private bool canProceed = false;
+
     void Start()
     {
         resultImageOB.gameObject.SetActive(false);
@@ -59,5 +61,15 @@ public class ResultUI : MonoBehaviour
         resultImageOB2.gameObject.SetActive(true);
         yield return new WaitForSeconds(1f);
         resultText.gameObject.SetActive(true);
+
+        canProceed = true;
+    }
+
+    void Update()
+    {
+        if (canProceed && Input.anyKeyDown)
+        {
+            GameManager.instance.GoToSongSelect();
+        }
     }
 }

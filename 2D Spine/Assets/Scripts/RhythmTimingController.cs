@@ -133,6 +133,11 @@ public class RhythmTimingController : MonoBehaviour
             PlayPattern2();
             AudioManager.instance.timelineInfo.lastMarker = new FMOD.StringWrapper();
         }
+        else if (currentMarker == "C")
+        {
+            GameManager.instance.GoToResult();
+            AudioManager.instance.timelineInfo.lastMarker = new FMOD.StringWrapper();
+        }
     }
 
     void Update()

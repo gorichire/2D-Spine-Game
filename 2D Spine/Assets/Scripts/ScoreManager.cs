@@ -10,15 +10,18 @@ public class ScoreManager : MonoBehaviour
     public int score = 0;
     public int maxScore = 72;
 
-    private void Awake()
+    void Awake()
     {
-        if (instance != null && instance != this)
+        if (instance == null)
+        {
+            instance = this;
+            transform.SetParent(null); 
+            DontDestroyOnLoad(gameObject);
+        }
+        else
         {
             Destroy(gameObject);
-            return;
         }
-        instance = this;
-        DontDestroyOnLoad(gameObject);
     }
 
 

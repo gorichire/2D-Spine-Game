@@ -33,5 +33,13 @@ public class FMODEvents : MonoBehaviour
         instance = this;
     }
 
+    void Start()
+    {
+        if (Camera.main != null && Camera.main.GetComponent<StudioListener>() == null)
+        {
+            Camera.main.gameObject.AddComponent<FMODUnity.StudioListener>();
+        }
+    }
+
 
 }
