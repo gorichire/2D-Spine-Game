@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{39aca6a8-8f87-4285-a531-9fa52f9d6e73}">
 		<property name="assetPath">
-			<value>Music/Bits &amp; Bops Demo OST - Meet &amp; Tweet.mp3</value>
+			<value>Music/BGM.mp3</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

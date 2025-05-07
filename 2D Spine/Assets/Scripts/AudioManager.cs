@@ -22,6 +22,15 @@ public class AudioManager : MonoBehaviour
 
     private FMOD.Studio.EVENT_CALLBACK beatCallback;
 
+    public delegate void BeatEventDelegate();
+    public static event BeatEventDelegate beatUpdated;
+
+    public delegate void MarkerListnerDelegate();
+    public static event MarkerListnerDelegate makerUpdated;
+
+    public static int lastBeat = 0;
+    public static string lastMarkerString = null;
+
     [StructLayout(LayoutKind.Sequential)]
     public class TimelineInfo
     {
@@ -35,10 +44,10 @@ public class AudioManager : MonoBehaviour
         {
             timelineInfo = new TimelineInfo();
             beatCallback = new FMOD.Studio.EVENT_CALLBACK(BeatEventCallback);
-            //Unity (C#)에서는 메모리가 자동으로 움직여
+            //Unity (C#)에서는 메모리가 자동으로 움직임
             //GC(Garbage Collector)가 언제든지 timelineInfo를 옮길 수 있음.
-            //하지만 FMOD은 native C 코드라서 주소가 정확히 여기에 있어야 돼
-            //그래서 GCHandleType.Pinned을 써서 timelineInfo를 절대 움직이지 않게 메모리에 "못 박는" 작업을 하는 거야.
+            //하지만 FMOD은 native C 코드라서 주소가 정확히 여기에 있어야 함
+            //그래서 GCHandleType.Pinned을 써서 timelineInfo를 절대 움직이지 않게 메모리에 "못 박는" 작업
             timelineHandle = GCHandle.Alloc(timelineInfo, GCHandleType.Pinned);
             musicInstance.setUserData(GCHandle.ToIntPtr(timelineHandle));
             musicInstance.setCallback(beatCallback, FMOD.Studio.EVENT_CALLBACK_TYPE.TIMELINE_BEAT | FMOD.Studio.EVENT_CALLBACK_TYPE.TIMELINE_MARKER);
@@ -91,6 +100,27 @@ public class AudioManager : MonoBehaviour
         musicInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
         musicInstance.release();
         timelineHandle.Free();
+    }
+
+    private void Update()
+    {
+        if(lastMarkerString != timelineInfo.lastMarker)
+        {
+            lastMarkerString = timelineInfo.lastMarker;
+            if(makerUpdated != null)
+            {
+                makerUpdated();
+            }
+        }
+
+        if(lastBeat != timelineInfo.currentBeat)
+        {
+            lastBeat = timelineInfo.currentBeat;
+            if(beatUpdated != null)
+            {
+                beatUpdated();
+            }
+        }
     }
 
     void OnGUI()

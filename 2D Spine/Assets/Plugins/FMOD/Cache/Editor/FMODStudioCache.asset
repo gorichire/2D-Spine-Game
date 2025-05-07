@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: ../2D-Spine-Fmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638816191930403870
+  lastModified: 638822283055657868
   FileSizes:
   - Name: Desktop
     Value: 1074
@@ -35,10 +35,10 @@ MonoBehaviour:
   Path: ../2D-Spine-Fmod/Build/Desktop/BGM.bank
   Name: BGM
   StudioPath: bank:/BGM
-  lastModified: 638817967011593608
+  lastModified: 638822265633124939
   FileSizes:
   - Name: Desktop
-    Value: 1280288
+    Value: 1281248
   Exists: 1
 --- !u!114 &-4317075666347264176
 MonoBehaviour:
@@ -109,11 +109,38 @@ MonoBehaviour:
   Path: ../2D-Spine-Fmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638816191930418997
+  lastModified: 638822283055683192
   FileSizes:
   - Name: Desktop
-    Value: 1118
+    Value: 1156
   Exists: 1
+--- !u!114 &-686432186518854837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FPX/Result
+  m_EditorClassIdentifier: 
+  Path: event:/FPX/Result
+  Guid:
+    Data1: -617103479
+    Data2: 1156281033
+    Data3: -2080286820
+    Data4: -1690280259
+  Banks:
+  - {fileID: 8492967191348892505}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8464
 --- !u!114 &-544395842862413224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -165,13 +192,14 @@ MonoBehaviour:
   - {fileID: -544395842862413224}
   - {fileID: 8753177021611427521}
   - {fileID: 4004600053034184994}
+  - {fileID: -686432186518854837}
   EditorParameters: []
   MasterBanks:
   - {fileID: -6276430803421406748}
   StringsBanks:
   - {fileID: -1358724805569595803}
   cacheVersion: 131847
-  cacheTime: 638817967011593608
+  cacheTime: 638822290624616691
   SerializableEventsDict:
   - key: event:/BGM/Meet & Tweet
     index: 0
@@ -185,6 +213,8 @@ MonoBehaviour:
     index: 4
   - key: event:/BGM/SongSelect
     index: 5
+  - key: event:/FPX/Result
+    index: 6
 --- !u!114 &4004600053034184994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -254,10 +284,10 @@ MonoBehaviour:
   Path: ../2D-Spine-Fmod/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638816181596684258
+  lastModified: 638822290624616691
   FileSizes:
   - Name: Desktop
-    Value: 32032
+    Value: 112192
   Exists: 1
 --- !u!114 &8753177021611427521
 MonoBehaviour:

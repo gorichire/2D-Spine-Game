@@ -5,6 +5,7 @@ using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class WrenBubble : MonoBehaviour
 {
+    public bool isTutorial = true;
 
     public SpriteRenderer spriteRenderer;
     public Sprite[] allSprites;
@@ -29,6 +30,7 @@ public class WrenBubble : MonoBehaviour
     private int currentFrameIndex = 0;
     public void PlayNext()
     {
+        if (isTutorial) return;
         if (!bubblecheck)
         {
             gameObject.SetActive(true);
@@ -53,6 +55,7 @@ public class WrenBubble : MonoBehaviour
 
     private void AdvanceSpriteImmediately()
     {
+        if (isTutorial) return;
         currentFrameIndex++;
 
         if (currentFrameIndex + 1 >= storyLines[currentStoryIndex].Length)
@@ -66,6 +69,8 @@ public class WrenBubble : MonoBehaviour
 
     private IEnumerator CloseBubbleAfterDelay()
     {
+        if (isTutorial) yield break;
+
         spriteRenderer.sprite = allSprites[storyLines[currentStoryIndex][storyLines[currentStoryIndex].Length - 1]];
 
         yield return new WaitForSeconds(1f);

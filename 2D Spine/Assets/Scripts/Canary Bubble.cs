@@ -10,6 +10,7 @@ public class CanaryBubble : MonoBehaviour
     public Animator ca_aniBubble;
     public GameObject ca_Bubble;
     public GameObject ca_Story;
+    public bool isTutorial = true;
 
     public SpriteRenderer scratchRenderer;
     public Sprite scratchSprite;
@@ -33,6 +34,7 @@ public class CanaryBubble : MonoBehaviour
     public void JudgePerfectOrGood()
     {
         AudioManager.instance.PlayerOneShot(FMODEvents.instance.playerTweetSound, this.transform.position);
+        if (isTutorial) return;
         if (!ca_Bubble.activeSelf)
         {
             ca_Story.SetActive(true);
@@ -77,6 +79,7 @@ public class CanaryBubble : MonoBehaviour
 
     public void AdvanceSprite()
     {
+        if (isTutorial) return;
         spriteRenderer.sprite = ca_allSprites[storyLines[currentStoryIndex][currentFrameIndex]];
         currentFrameIndex++;
 
@@ -88,6 +91,7 @@ public class CanaryBubble : MonoBehaviour
 
     public void FrameIndexPlus()
     {
+        if (isTutorial) return;
         currentFrameIndex++;
         if (currentFrameIndex >= storyLines[currentStoryIndex].Length)
         {

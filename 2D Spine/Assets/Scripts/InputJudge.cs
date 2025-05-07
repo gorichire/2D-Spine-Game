@@ -23,16 +23,16 @@ public class InputJudge : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
-        {
-            AudioManager.instance.PlayerOneShot(FMODEvents.instance.pattern1, this.transform.position);
-            controller.PlayPattern1();
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            AudioManager.instance.PlayerOneShot(FMODEvents.instance.pattern2, this.transform.position);
-            controller.PlayPattern2();
-        }
+        //if (Input.GetKeyDown(KeyCode.Alpha1))
+        //{
+        //    AudioManager.instance.PlayerOneShot(FMODEvents.instance.pattern1, this.transform.position);
+        //    controller.PlayPattern1();
+        //}
+        //else if (Input.GetKeyDown(KeyCode.Alpha2))
+        //{
+        //    AudioManager.instance.PlayerOneShot(FMODEvents.instance.pattern2, this.transform.position);
+        //    controller.PlayPattern2();
+        //}
         if (Time.time - gameStartTime < 8f)
             return;
 
@@ -64,6 +64,7 @@ public class InputJudge : MonoBehaviour
             if (diff <= perfectWindow)
             {
                 aniCanary.SetTrigger("sing");
+                ScoreManager.instance.AddPerfect();
                 Debug.Log("Perfect!");
                 if (canaryBubble.CurrentFrameIndex == 3)
                 {
@@ -78,6 +79,7 @@ public class InputJudge : MonoBehaviour
             else if (diff <= goodWindow)
             {
                 aniCanary.SetTrigger("good_sing");
+                ScoreManager.instance.AddGood();
                 Debug.Log("Good!");
                 aniWren.SetTrigger("good");
                 canaryBubble.JudgePerfectOrGood();
