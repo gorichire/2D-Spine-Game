@@ -26,4 +26,9 @@ public class ButtonAni : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
     {
         transform.DOScale(originalScale, duration).SetEase(Ease.OutBack).SetUpdate(true);
     }
+
+    void OnDestroy()
+    {
+        transform.DOKill(); 
+    }
 }

@@ -16,6 +16,8 @@ public class MainUI : MonoBehaviour
 
     public GameObject optionPanel;
 
+    public GameObject soundOptionOpen;
+    public GameObject screenOptionOpen;
 
     void Start()
     {
@@ -48,6 +50,7 @@ public class MainUI : MonoBehaviour
     {
         AudioManager.instance.PlayerOneShot(FMODEvents.instance.OptionSound, this.transform.position);
         optionPanel.SetActive(true);
+        soundOptionOpen.SetActive(true);
     }
 
     public void OnExitButton()
@@ -58,7 +61,21 @@ public class MainUI : MonoBehaviour
     public void OnExitOptionButton()
     {
         AudioManager.instance.PlayerOneShot(FMODEvents.instance.OptionCloseSound, this.transform.position);
+        soundOptionOpen.SetActive(false);
+        screenOptionOpen.SetActive(false);
         optionPanel.SetActive(false);
+    }
+
+    public void OnSoundOptionButton()
+    {
+        screenOptionOpen.SetActive(false);
+        soundOptionOpen.SetActive(true);
+    }
+
+    public void OnScreenOptionButton()
+    {
+        soundOptionOpen.SetActive(false);
+        screenOptionOpen.SetActive(true);
     }
 
     void OnDestroy()

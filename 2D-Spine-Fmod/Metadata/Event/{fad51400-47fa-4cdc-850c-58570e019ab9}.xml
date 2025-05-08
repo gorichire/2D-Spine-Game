@@ -204,7 +204,7 @@
 	</object>
 	<object class="NamedMarker" id="{987751e5-1637-4d3b-b36e-c35bf8c635e7}">
 		<property name="position">
-			<value>17.399999999999999</value>
+			<value>17.300000000000001</value>
 		</property>
 		<property name="name">
 			<value>B</value>
@@ -218,7 +218,7 @@
 	</object>
 	<object class="NamedMarker" id="{6e0a3eec-bae5-44b0-aa35-491b8f446e27}">
 		<property name="position">
-			<value>19.300000000000001</value>
+			<value>19.350000000000001</value>
 		</property>
 		<property name="name">
 			<value>B</value>
@@ -316,7 +316,7 @@
 	</object>
 	<object class="NamedMarker" id="{a0591768-8b14-4716-8381-6a6ce6f2111b}">
 		<property name="position">
-			<value>35.200000000000003</value>
+			<value>35.299999999999997</value>
 		</property>
 		<property name="name">
 			<value>A</value>
@@ -386,7 +386,7 @@
 	</object>
 	<object class="NamedMarker" id="{bb4799d0-682d-4bd7-873e-a0c099d2c18d}">
 		<property name="position">
-			<value>46.100000000000001</value>
+			<value>46.200000000000003</value>
 		</property>
 		<property name="name">
 			<value>A</value>
@@ -400,7 +400,7 @@
 	</object>
 	<object class="NamedMarker" id="{63f86c9f-f108-4cc9-8fe5-8aa0f409a8db}">
 		<property name="position">
-			<value>47.899999999999999</value>
+			<value>47.850000000000001</value>
 		</property>
 		<property name="name">
 			<value>B</value>
@@ -414,7 +414,7 @@
 	</object>
 	<object class="NamedMarker" id="{619f2f70-6a9f-4319-8df9-63218b32d8e3}">
 		<property name="position">
-			<value>50.100000000000001</value>
+			<value>50</value>
 		</property>
 		<property name="name">
 			<value>A</value>
@@ -428,7 +428,7 @@
 	</object>
 	<object class="NamedMarker" id="{7c4a1ce8-b799-4f8b-baed-841f3df16158}">
 		<property name="position">
-			<value>52.299999999999997</value>
+			<value>52.200000000000003</value>
 		</property>
 		<property name="name">
 			<value>A</value>
@@ -456,7 +456,7 @@
 	</object>
 	<object class="NamedMarker" id="{c2159a13-d083-47b8-8779-0f91753a7b48}">
 		<property name="position">
-			<value>56.700000000000003</value>
+			<value>56.549999999999997</value>
 		</property>
 		<property name="name">
 			<value>B</value>
@@ -470,7 +470,7 @@
 	</object>
 	<object class="NamedMarker" id="{f55e1e46-97bd-4034-b9f7-94cae9512f9d}">
 		<property name="position">
-			<value>58.299999999999997</value>
+			<value>58.200000000000003</value>
 		</property>
 		<property name="name">
 			<value>B</value>
@@ -596,7 +596,7 @@
 	</object>
 	<object class="NamedMarker" id="{03aa16d8-7c7c-4f9a-a313-a698dd770c26}">
 		<property name="position">
-			<value>78.599999999999994</value>
+			<value>79</value>
 		</property>
 		<property name="name">
 			<value>A</value>
@@ -610,7 +610,7 @@
 	</object>
 	<object class="NamedMarker" id="{968b1edd-7059-491c-9542-f0f2574fcb14}">
 		<property name="position">
-			<value>80.700000000000003</value>
+			<value>81.150000000000006</value>
 		</property>
 		<property name="name">
 			<value>A</value>
@@ -624,7 +624,7 @@
 	</object>
 	<object class="NamedMarker" id="{2bd0e0b4-c627-4700-95c1-ce2069df87a7}">
 		<property name="position">
-			<value>83</value>
+			<value>83.299999999999997</value>
 		</property>
 		<property name="name">
 			<value>A</value>
@@ -638,7 +638,7 @@
 	</object>
 	<object class="NamedMarker" id="{37f89044-4bd5-4a21-8433-c8765a3b0dc2}">
 		<property name="position">
-			<value>84.400000000000006</value>
+			<value>84.650000000000006</value>
 		</property>
 		<property name="name">
 			<value>B</value>
