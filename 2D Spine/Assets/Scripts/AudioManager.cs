@@ -9,6 +9,18 @@ using System.Runtime.CompilerServices;
 
 public class AudioManager : MonoBehaviour
 {
+    [Header("Volume")]
+    [Range(0, 1)]
+    public float materVolume = 1;
+    [Range(0, 1)]
+    public float BGMVolume = 1;
+    [Range(0, 1)]
+    public float SFXVolume = 1;
+
+    private Bus masterBus;
+    private Bus BGMBus;
+    private Bus SFXBus;
+
     private List<EventInstance> eventInstances;
     [field: SerializeField]
     public EventReference musicEvent { get; private set; }
@@ -51,8 +63,6 @@ public class AudioManager : MonoBehaviour
             timelineHandle = GCHandle.Alloc(timelineInfo, GCHandleType.Pinned);
             musicInstance.setUserData(GCHandle.ToIntPtr(timelineHandle));
             musicInstance.setCallback(beatCallback, FMOD.Studio.EVENT_CALLBACK_TYPE.TIMELINE_BEAT | FMOD.Studio.EVENT_CALLBACK_TYPE.TIMELINE_MARKER);
-
-            
         }
     }
 
@@ -66,13 +76,19 @@ public class AudioManager : MonoBehaviour
         instance = this;
         musicInstance = RuntimeManager.CreateInstance(musicEvent);
         eventInstances = new List<EventInstance>();
+
+        masterBus = RuntimeManager.GetBus("bus:/");
+        BGMBus = RuntimeManager.GetBus("bus:/BGM");
+        SFXBus = RuntimeManager.GetBus("bus:/SFX");
+
     }
 
     public void PlayerOneShot(EventReference sound , Vector3 worldPos)
     {
         RuntimeManager.PlayOneShot(sound, worldPos);
     }
-    
+
+
     public EventInstance CreateInstance(EventReference eventReference)
     {
         EventInstance eventInstance = RuntimeManager.CreateInstance(eventReference);
@@ -94,7 +110,7 @@ public class AudioManager : MonoBehaviour
         CleanUp();
     }
 
-    private void MusicOnDestroy()
+    public void MusicOnDestroy()
     {
         musicInstance.setUserData(IntPtr.Zero);
         musicInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
@@ -104,7 +120,11 @@ public class AudioManager : MonoBehaviour
 
     private void Update()
     {
-        if(lastMarkerString != timelineInfo.lastMarker)
+        masterBus.setVolume(materVolume);
+        BGMBus.setVolume(BGMVolume);
+        SFXBus.setVolume(SFXVolume);
+
+        if (lastMarkerString != timelineInfo.lastMarker)
         {
             lastMarkerString = timelineInfo.lastMarker;
             if(makerUpdated != null)
@@ -168,5 +188,26 @@ public class AudioManager : MonoBehaviour
         }
         return FMOD.RESULT.OK;
 
+    }
+
+    public void PlayMainBGM()
+    {
+        if (musicInstance.isValid())
+        {
+            musicInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            musicInstance.release();
+        }
+
+        musicInstance = RuntimeManager.CreateInstance(FMODEvents.instance.MainBGM);
+        musicInstance.start();
+    }
+
+    public void StopMainBGM()
+    {
+        if (musicInstance.isValid())
+        {
+            musicInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            musicInstance.release();
+        }
     }
 }

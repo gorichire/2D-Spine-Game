@@ -135,8 +135,9 @@ GameObject:
   - component: {fileID: 143574928}
   - component: {fileID: 143574927}
   - component: {fileID: 143574926}
+  - component: {fileID: 143574929}
   m_Layer: 5
-  m_Name: Button (Legacy)
+  m_Name: BackButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -205,7 +206,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 143574927}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1024699586}
+        m_TargetAssemblyTypeName: SelectUI, Assembly-CSharp
+        m_MethodName: OnBackButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &143574927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -244,6 +257,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 143574924}
   m_CullTransparentMesh: 1
+--- !u!114 &143574929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143574924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66247841ed305c74791b698f4e705781, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleUp: 1.1
+  duration: 0.2
 --- !u!1 &159306149
 GameObject:
   m_ObjectHideFlags: 0
@@ -773,6 +800,7 @@ GameObject:
   - component: {fileID: 1024699584}
   - component: {fileID: 1024699583}
   - component: {fileID: 1024699582}
+  - component: {fileID: 1024699586}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -864,6 +892,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1024699586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024699581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4cd4ab009457994d9293093a8731d73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1119736792
 GameObject:
   m_ObjectHideFlags: 0
@@ -943,6 +983,41 @@ MonoBehaviour:
       Data3: -2080286820
       Data4: -1690280259
     Path: event:/FPX/Result
+  <UIMouse>k__BackingField:
+    Guid:
+      Data1: 1760216525
+      Data2: 1316501876
+      Data3: -465037948
+      Data4: -1852492851
+    Path: event:/FPX/UIMouse
+  <StartSound>k__BackingField:
+    Guid:
+      Data1: 1133108691
+      Data2: 1168212610
+      Data3: -413160265
+      Data4: 305117795
+    Path: event:/SFX/StartButton
+  <OptionSound>k__BackingField:
+    Guid:
+      Data1: -1295952254
+      Data2: 1082049038
+      Data3: -755034701
+      Data4: -241590303
+    Path: event:/SFX/OptionButton
+  <OptionCloseSound>k__BackingField:
+    Guid:
+      Data1: -676229383
+      Data2: 1237146929
+      Data3: 903269028
+      Data4: 423653978
+    Path: event:/SFX/OptionCloseButton
+  <GameSelectSound>k__BackingField:
+    Guid:
+      Data1: -1237466783
+      Data2: 1245718311
+      Data3: 125637287
+      Data4: -1570536725
+    Path: event:/SFX/GameSelect
   <SongSelectBGM>k__BackingField:
     Guid:
       Data1: -1782820924
@@ -950,6 +1025,13 @@ MonoBehaviour:
       Data3: -861950580
       Data4: 300742160
     Path: event:/BGM/SongSelect
+  <MainBGM>k__BackingField:
+    Guid:
+      Data1: 107580929
+      Data2: 1319333094
+      Data3: -737670502
+      Data4: -871026260
+    Path: event:/BGM/MinaBGM
 --- !u!1 &1132040675
 GameObject:
   m_ObjectHideFlags: 0
@@ -1211,8 +1293,9 @@ GameObject:
   - component: {fileID: 1391088081}
   - component: {fileID: 1391088080}
   - component: {fileID: 1391088079}
+  - component: {fileID: 1391088082}
   m_Layer: 5
-  m_Name: Button (Legacy)
+  m_Name: Game1Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1281,7 +1364,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1391088080}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1024699586}
+        m_TargetAssemblyTypeName: SelectUI, Assembly-CSharp
+        m_MethodName: OnGameOneButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1391088080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1320,6 +1415,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1391088077}
   m_CullTransparentMesh: 1
+--- !u!114 &1391088082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391088077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66247841ed305c74791b698f4e705781, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleUp: 1.1
+  duration: 0.2
 --- !u!1 &1582474262
 GameObject:
   m_ObjectHideFlags: 0
@@ -1364,6 +1473,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1691713f4080674ea06df6e8e14d845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  materVolume: 1
+  BGMVolume: 1
+  SFXVolume: 1
   <musicEvent>k__BackingField:
     Guid:
       Data1: -86699008
