@@ -233,7 +233,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 2000, y: 1300}
+  m_SizeDelta: {x: 2200, y: 1400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &318123635
 MonoBehaviour:
@@ -352,6 +352,41 @@ MonoBehaviour:
       Data3: -2080286820
       Data4: -1690280259
     Path: event:/FPX/Result
+  <UIMouse>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  <StartSound>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  <OptionSound>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  <OptionCloseSound>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  <GameSelectSound>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   <SongSelectBGM>k__BackingField:
     Guid:
       Data1: -1782820924
@@ -359,6 +394,13 @@ MonoBehaviour:
       Data3: -861950580
       Data4: 300742160
     Path: event:/BGM/SongSelect
+  <MainBGM>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!1 &631543819
 GameObject:
   m_ObjectHideFlags: 0
@@ -403,6 +445,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1691713f4080674ea06df6e8e14d845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  materVolume: 1
+  BGMVolume: 1
+  SFXVolume: 1
   <musicEvent>k__BackingField:
     Guid:
       Data1: -86699008
@@ -505,12 +550,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1280}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96

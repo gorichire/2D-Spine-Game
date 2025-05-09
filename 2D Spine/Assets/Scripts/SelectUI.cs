@@ -8,7 +8,6 @@ public class SelectUI : MonoBehaviour
 
     public void OnGameOneButton()
     {
-        AudioManager.instance.PlayerOneShot(FMODEvents.instance.GameSelectSound, this.transform.position);
         SceneManager.LoadScene("GameScene");
     }
 

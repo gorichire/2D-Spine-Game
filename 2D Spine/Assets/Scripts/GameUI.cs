@@ -14,7 +14,6 @@ public class GameUI : MonoBehaviour
     void Start()
     {
         AudioManager.instance.PlayerOneShot(FMODEvents.instance.SongSelectBGM, this.transform.position);
-
         StartCoroutine(FadeOutImage(titleImage, 6f));   
         StartCoroutine(FadeOutImage(blackImage, 7f));
     }
