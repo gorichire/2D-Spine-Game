@@ -15,7 +15,7 @@ C:/Users/worn4/OneDrive/바탕 화면/unity/2D-Spine-Game/2D Spine
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58638
+60468
 Successfully changed project path to: C:/Users/worn4/OneDrive/바탕 화면/unity/2D-Spine-Game/2D Spine
 C:/Users/worn4/OneDrive/바탕 화면/unity/2D-Spine-Game/2D Spine
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/worn4/OneDrive/바탕 화면/unity/2D-Spine-Game/2D Spine
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23832] Host "[IP] 192.168.17.116 [Port] 0 [Flags] 2 [Guid] 2625518166 [EditorId] 2625518166 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1IUMS59) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [18444] Host "[IP] 192.168.17.116 [Port] 0 [Flags] 2 [Guid] 1053347500 [EditorId] 1053347500 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1IUMS59) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23832] Host "[IP] 192.168.17.116 [Port] 0 [Flags] 2 [Guid] 2625518166 [EditorId] 2625518166 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1IUMS59) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18444] Host "[IP] 192.168.17.116 [Port] 0 [Flags] 2 [Guid] 1053347500 [EditorId] 1053347500 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1IUMS59) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 86.90 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 125.54 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
 [Subsystems] Discovering subsystems at path C:/Program Files/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -69,51 +69,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/2022.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/2022.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/2022.3.7f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012707 seconds.
-- Loaded All Assemblies, in  0.545 seconds
+Registered in 0.022253 seconds.
+- Loaded All Assemblies, in  1.419 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 328 ms
+Android Extension - Scanning For ADB Devices 717 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.728 seconds
-Domain Reload Profiling: 1271ms
-	BeginReloadAssembly (212ms)
+- Finished resetting the current domain, in  1.640 seconds
+Domain Reload Profiling: 3053ms
+	BeginReloadAssembly (407ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (81ms)
-	LoadAllAssembliesAndSetupDomain (188ms)
-		LoadAssemblies (213ms)
+	RebuildCommonClasses (190ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (215ms)
+	LoadAllAssembliesAndSetupDomain (562ms)
+		LoadAssemblies (414ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (181ms)
-			TypeCache.Refresh (178ms)
-				TypeCache.ScanAssembly (161ms)
+		AnalyzeDomain (550ms)
+			TypeCache.Refresh (548ms)
+				TypeCache.ScanAssembly (511ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (729ms)
+	FinalizeReload (1641ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (652ms)
+		SetupLoadedEditorAssemblies (1428ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (473ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (926ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (114ms)
-			ProcessInitializeOnLoadMethodAttributes (57ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (290ms)
+			ProcessInitializeOnLoadMethodAttributes (200ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -123,53 +123,53 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\worn4\OneDrive\바탕 화면\unity\2D-Spine-Game\2D Spine\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\worn4\OneDrive\바탕 화면\unity\2D-Spine-Game\2D Spine\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.480 seconds
-Refreshing native plugins compatible for Editor in 28.32 ms, found 6 plugins.
+- Loaded All Assemblies, in  1.308 seconds
+Refreshing native plugins compatible for Editor in 28.73 ms, found 6 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.789 seconds
-Domain Reload Profiling: 2261ms
-	BeginReloadAssembly (316ms)
+- Finished resetting the current domain, in  1.595 seconds
+Domain Reload Profiling: 2899ms
+	BeginReloadAssembly (282ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (55ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (100ms)
-	LoadAllAssembliesAndSetupDomain (987ms)
-		LoadAssemblies (880ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (894ms)
+		LoadAssemblies (837ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (302ms)
-			TypeCache.Refresh (259ms)
-				TypeCache.ScanAssembly (229ms)
-			ScanForSourceGeneratedMonoScriptInfo (34ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (789ms)
+		AnalyzeDomain (250ms)
+			TypeCache.Refresh (208ms)
+				TypeCache.ScanAssembly (183ms)
+			ScanForSourceGeneratedMonoScriptInfo (33ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1596ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (564ms)
+		SetupLoadedEditorAssemblies (1323ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (48ms)
+			InitializePlatformSupportModulesInManaged (55ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (94ms)
-			ProcessInitializeOnLoadAttributes (352ms)
-			ProcessInitializeOnLoadMethodAttributes (57ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (992ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
-Refreshing native plugins compatible for Editor in 26.65 ms, found 6 plugins.
+		AwakeInstancesAfterBackupRestoration (15ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.23 seconds
+Refreshing native plugins compatible for Editor in 27.60 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4212 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 137 unused Assets / (212.3 KB). Loaded Objects now: 4609.
-Memory consumption went from 154.7 MB to 154.5 MB.
-Total: 6.139300 ms (FindLiveObjects: 0.924700 ms CreateObjectMapping: 0.135200 ms MarkObjects: 4.436000 ms  DeleteObjects: 0.638900 ms)
+Unloading 137 unused Assets / (217.8 KB). Loaded Objects now: 4609.
+Memory consumption went from 154.8 MB to 154.6 MB.
+Total: 7.163900 ms (FindLiveObjects: 0.636600 ms CreateObjectMapping: 0.157000 ms MarkObjects: 5.583500 ms  DeleteObjects: 0.785100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,180 +184,124 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 503927.272620 seconds.
-  path: Assets/Audio/game_player_miss.mp3
-  artifactKey: Guid(2d9301f045121af42a6b4936adea8d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/game_player_miss.mp3 using Guid(2d9301f045121af42a6b4936adea8d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b10177b52404e9a39dc8db5fd71189') in 0.122605 seconds
+  Time since last request: 743037.426514 seconds.
+  path: Assets/sprite/Lazy Knight/NOTWrong/20250504_220421_11.png
+  artifactKey: Guid(dd0dddd3adbc16449a797d697f2bdba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Lazy Knight/NOTWrong/20250504_220421_11.png using Guid(dd0dddd3adbc16449a797d697f2bdba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24484e27d126da401d1fe18b079d698c') in 0.136927 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Audio/game_player_tweet.mp3
-  artifactKey: Guid(af0a1a5d3dc4a9f43b7c17b27582e952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/game_player_tweet.mp3 using Guid(af0a1a5d3dc4a9f43b7c17b27582e952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148be0d3f4b5df92c3b350d09a81990d') in 0.031975 seconds
+  Time since last request: 0.000777 seconds.
+  path: Assets/sprite/Lazy Knight/HaveWrong/20250504_220421_5.png
+  artifactKey: Guid(3f37eb38f76404740ba970878ccf2e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Lazy Knight/HaveWrong/20250504_220421_5.png using Guid(3f37eb38f76404740ba970878ccf2e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e8246c4977b6ec51482c64dc339c0f') in 0.061857 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Audio/game_boink.wav
-  artifactKey: Guid(b44b21fa03cc06348af128ff8df65d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/game_boink.wav using Guid(b44b21fa03cc06348af128ff8df65d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2599fddee252285450b0acc1587fda2b') in 0.029857 seconds
+  Time since last request: 0.000025 seconds.
+  path: Assets/sprite/Lazy Knight/NOTWrong/20250504_223556.png
+  artifactKey: Guid(494a5e6eec0af2c46b1e0108772082bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Lazy Knight/NOTWrong/20250504_223556.png using Guid(494a5e6eec0af2c46b1e0108772082bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a260e45fab6fba61d70bdf64124456f') in 0.053618 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Audio/result.mp3
-  artifactKey: Guid(a92959e81180f684d8c113664c597e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/result.mp3 using Guid(a92959e81180f684d8c113664c597e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36dc5b234a9317876b8dfd7b62482f10') in 0.026184 seconds
+  Time since last request: 0.000097 seconds.
+  path: Assets/sprite/Lazy Knight/NOTWrong/20250504_220421_15.png
+  artifactKey: Guid(d5251122cbd06b44f9e083d63299fc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Lazy Knight/NOTWrong/20250504_220421_15.png using Guid(d5251122cbd06b44f9e083d63299fc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88121c27384f8ba32f133426460b04b') in 0.046264 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Audio/game_start_title.mp3
-  artifactKey: Guid(291b5778350856543a91774ab2435dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/game_start_title.mp3 using Guid(291b5778350856543a91774ab2435dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5bd35466909502a11f987f8cf2c6ce') in 0.022282 seconds
+  Time since last request: 0.000036 seconds.
+  path: Assets/sprite/Lazy Knight/NOTWrong/20250504_220421_12.png
+  artifactKey: Guid(b019993319707de459751ab25f96d1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Lazy Knight/NOTWrong/20250504_220421_12.png using Guid(b019993319707de459751ab25f96d1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e432da9372f64f1d8d4bb079b650384') in 0.055583 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Audio/main_map_select.mp3
-  artifactKey: Guid(57913350e73275b48a9cee10effaf708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/main_map_select.mp3 using Guid(57913350e73275b48a9cee10effaf708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a66a8d30fece6845dd42e8dfab1ef8') in 0.021254 seconds
+  Time since last request: 0.000038 seconds.
+  path: Assets/sprite/Lazy Knight/20250504_220421_1.png
+  artifactKey: Guid(5f8dd19f0354f684eb48fcd8074f41be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Lazy Knight/20250504_220421_1.png using Guid(5f8dd19f0354f684eb48fcd8074f41be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d71c1ec78d39caec28b0cb77e763855') in 0.048906 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/sprite/Lazy Knight/Audio
-  artifactKey: Guid(a8e689bc6ba71a54b8e05296102a005c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprite/Lazy Knight/Audio using Guid(a8e689bc6ba71a54b8e05296102a005c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1906caaa389b3d152d827f15b41edf') in 0.000498 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/sprite/Lazy Knight/Audio/PlayerDie.mp3
-  artifactKey: Guid(9e400871033b16440a9f0b1e2550baca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprite/Lazy Knight/Audio/PlayerDie.mp3 using Guid(9e400871033b16440a9f0b1e2550baca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42f84015c1a5a23063c068f58f842c5') in 0.019749 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000386 seconds.
-  path: Assets/sprite/Lazy Knight/Audio/NPC.mp3
-  artifactKey: Guid(d648bf27c96856642af3ce526ab45515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprite/Lazy Knight/Audio/NPC.mp3 using Guid(d648bf27c96856642af3ce526ab45515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583d188f81d0633ad397077631b0c0d1') in 0.029381 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Audio/Bits & Bops Demo OST - Title Theme.mp3
-  artifactKey: Guid(a3b304160b0b64a459308e06f9f6e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Bits & Bops Demo OST - Title Theme.mp3 using Guid(a3b304160b0b64a459308e06f9f6e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ff2f0f9f8bb61be6d2d1a21babac35') in 0.029700 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/sprite/Lazy Knight/Audio/PlayerRight.mp3
-  artifactKey: Guid(b20d8ad20b7352247ace836c11a121f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprite/Lazy Knight/Audio/PlayerRight.mp3 using Guid(b20d8ad20b7352247ace836c11a121f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb0369ab683ab21e6d5b11da46a4971') in 0.032888 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000501 seconds.
-  path: Assets/sprite/Lazy Knight/Audio/PlayerTop.mp3
-  artifactKey: Guid(801d8425330cf3e4b83023a5edbfd0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprite/Lazy Knight/Audio/PlayerTop.mp3 using Guid(801d8425330cf3e4b83023a5edbfd0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c7209810076ae9ba1639d7c23866ec3') in 0.028098 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Audio/Bits & Bops Demo OST - Meet & Tweet.mp3
-  artifactKey: Guid(51b20a0bf9d3d15428f2c0d3594f80b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Bits & Bops Demo OST - Meet & Tweet.mp3 using Guid(51b20a0bf9d3d15428f2c0d3594f80b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0852e066eb72ac16f31726fc3514c770') in 0.027653 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Audio/main_option_close.mp3
-  artifactKey: Guid(53c80017f6a052d4e87dd6aaced3ef61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/main_option_close.mp3 using Guid(53c80017f6a052d4e87dd6aaced3ef61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34fad11485e9fe262d21c6977b6add4') in 0.026413 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Audio/main_move.mp3
-  artifactKey: Guid(4caf628686472c34e970d3fc4de159b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/main_move.mp3 using Guid(4caf628686472c34e970d3fc4de159b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017846ceb9be08a99514bbd92515b044') in 0.026322 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/sprite/Lazy Knight/Audio/PlayerLeft.mp3
-  artifactKey: Guid(43cbcda966c20134c8b8344414ea5562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprite/Lazy Knight/Audio/PlayerLeft.mp3 using Guid(43cbcda966c20134c8b8344414ea5562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785ace43ae982ba0aa7fafcbd7b8b35a') in 0.034941 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/sprite/Lazy Knight/Audio/PlayerMiss.mp3
-  artifactKey: Guid(52e5380a248ba7b4e8d862d8ec071c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprite/Lazy Knight/Audio/PlayerMiss.mp3 using Guid(52e5380a248ba7b4e8d862d8ec071c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da8267f62b36415a585b129aceed2bb') in 0.031171 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000032 seconds.
-  path: Assets/Audio
-  artifactKey: Guid(455f8117b2ce78a4a8a2677bbb532fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio using Guid(455f8117b2ce78a4a8a2677bbb532fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e95789a331ea11b80efaf9aec2437c') in 0.001194 seconds
+  path: Assets/sprite/Lazy Knight/HaveWrong/20250504_220421_19.png
+  artifactKey: Guid(5eb24d630b392874a9b25913f5cd22de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Lazy Knight/HaveWrong/20250504_220421_19.png using Guid(5eb24d630b392874a9b25913f5cd22de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc3c316a5ab1f6616fe65dd0a4093b7') in 0.053234 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/sprite/Lazy Knight/Audio/PlayerCough.mp3
-  artifactKey: Guid(946c1e88de63e6442812d7b39978117b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprite/Lazy Knight/Audio/PlayerCough.mp3 using Guid(946c1e88de63e6442812d7b39978117b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512b200da6920f5fdcbbadd61c56a9b8') in 0.028525 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/sprite/Lazy Knight/HaveWrong/20250504_220421_10.png
+  artifactKey: Guid(676dc5f6bcd63ea4f8d66d8d5acc6d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Lazy Knight/HaveWrong/20250504_220421_10.png using Guid(676dc5f6bcd63ea4f8d66d8d5acc6d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083dce31adb4c593c9e9a34a4634aa46') in 0.053844 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Audio/game_text.mp3
-  artifactKey: Guid(84434eff6b3e32f41ba131f92c99527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/game_text.mp3 using Guid(84434eff6b3e32f41ba131f92c99527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74f69077651c27d098c0ac12e6a843c') in 0.031650 seconds
+  Time since last request: 0.000031 seconds.
+  path: Assets/sprite/Lazy Knight/Correct/20250504_220421_3.png
+  artifactKey: Guid(a71d1667f021ca74ca4ffd4bd2ece974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Lazy Knight/Correct/20250504_220421_3.png using Guid(a71d1667f021ca74ca4ffd4bd2ece974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8dee10f13328723a02132aa3dc5b974') in 0.072570 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sprite/Lazy Knight/Correct/20250504_220421_7.png
+  artifactKey: Guid(02e2ff7dc41377e4db0863541a6ba34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Lazy Knight/Correct/20250504_220421_7.png using Guid(02e2ff7dc41377e4db0863541a6ba34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c89a91da4e6cfe3f05a5e5b76ba84a') in 0.066778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000040 seconds.
-  path: Assets/sprite/Lazy Knight/Audio/PlayerDown.mp3
-  artifactKey: Guid(63b73245b5ab47341b6761a94c17c859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprite/Lazy Knight/Audio/PlayerDown.mp3 using Guid(63b73245b5ab47341b6761a94c17c859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33b80874ca03621318dbbe63498e741') in 0.025892 seconds
+  path: Assets/sprite/Lazy Knight/HaveWrong/20250504_220421_14.png
+  artifactKey: Guid(0009e869e734b6e4ca63b3b819fbbc9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Lazy Knight/HaveWrong/20250504_220421_14.png using Guid(0009e869e734b6e4ca63b3b819fbbc9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90624c5a08c6b6659f73c2894f22c47a') in 0.068747 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/sprite/Lazy Knight/Correct/20250504_220421_17.png
+  artifactKey: Guid(dbb6282ca0f56794195bfefd933dd042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Lazy Knight/Correct/20250504_220421_17.png using Guid(dbb6282ca0f56794195bfefd933dd042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541a8f560d3d47272a04f35c1ba116f5') in 0.057070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/sprite/Lazy Knight/NPC/ChatGPT Image 2025년 5월 4일 오후 11_51_33.png
+  artifactKey: Guid(c06808287c9b22549ba99defc2151588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Lazy Knight/NPC/ChatGPT Image 2025년 5월 4일 오후 11_51_33.png using Guid(c06808287c9b22549ba99defc2151588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31618d901ce428be5f5ecea4d0b1d50e') in 0.063034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/sprite/Lazy Knight/Correct/20250504_220421_2.png
+  artifactKey: Guid(696ac4e149d1c304bb7af3b4d1597f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Lazy Knight/Correct/20250504_220421_2.png using Guid(696ac4e149d1c304bb7af3b4d1597f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b4b4084bee6e9f3f91725157459406') in 0.054101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 20.00 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 55.03 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5 unused Assets / (120.9 KB). Loaded Objects now: 4619.
-Memory consumption went from 83.8 MB to 83.7 MB.
-Total: 4.701900 ms (FindLiveObjects: 0.470900 ms CreateObjectMapping: 0.222600 ms MarkObjects: 3.735100 ms  DeleteObjects: 0.270900 ms)
+Unloading 5 unused Assets / (121.2 KB). Loaded Objects now: 4633.
+Memory consumption went from 84.0 MB to 83.9 MB.
+Total: 5.995800 ms (FindLiveObjects: 0.566500 ms CreateObjectMapping: 0.172700 ms MarkObjects: 5.071900 ms  DeleteObjects: 0.183200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -373,3 +317,67 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 278.979974 seconds.
+  path: Assets/sprite/UI/UIsprite1.png
+  artifactKey: Guid(a2d355d5bf42d524b8d363ce6c352ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/UI/UIsprite1.png using Guid(a2d355d5bf42d524b8d363ce6c352ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdabb91b498c7a81d348a79a9f4d0688') in 0.097800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 158.833395 seconds.
+  path: Assets/sprite/UI/UIsprite1.png
+  artifactKey: Guid(a2d355d5bf42d524b8d363ce6c352ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/UI/UIsprite1.png using Guid(a2d355d5bf42d524b8d363ce6c352ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0fa6681768ed0c2e6f2eb27a033901a') in 0.054150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 247.826765 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+  artifactKey: Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF using Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f305e02e39be85e2631c4793c8812a') in 0.100163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
+  artifactKey: Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf using Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294d8b1710dc942a6654edea9fab0fea') in 0.029344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
+  artifactKey: Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf using Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc56773670ad61665a1d1468320514c') in 0.020700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868ae7279cb8681e901fb13a12c8cb7e') in 0.023549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 2.131052 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
+  artifactKey: Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf using Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878869d0b4a4293b898f7fbb9189ca37') in 0.020595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.050500 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
+  artifactKey: Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf using Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f14033b84d77025a5fbc24bc4dbf86') in 0.018955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
