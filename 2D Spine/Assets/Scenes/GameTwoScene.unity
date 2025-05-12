@@ -555,7 +555,7 @@ Transform:
   m_GameObject: {fileID: 500704857}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1, y: -0.5, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -835,6 +835,62 @@ MonoBehaviour:
       Data3: 125637287
       Data4: -1570536725
     Path: event:/SFX/GameSelect
+  <NPCSound>k__BackingField:
+    Guid:
+      Data1: -2117900168
+      Data2: 1102136935
+      Data3: -1612691796
+      Data4: -533780624
+    Path: event:/SFX/GameTwo/NPC
+  <CoughSound>k__BackingField:
+    Guid:
+      Data1: 312090155
+      Data2: 1104962461
+      Data3: 1218369674
+      Data4: -606916531
+    Path: event:/SFX/GameTwo/PlayerCough
+  <LeftSound>k__BackingField:
+    Guid:
+      Data1: -1077730490
+      Data2: 1233260592
+      Data3: -1079445609
+      Data4: -632344434
+    Path: event:/SFX/GameTwo/PlayerLeft
+  <RightSound>k__BackingField:
+    Guid:
+      Data1: -1657794671
+      Data2: 1116688296
+      Data3: -192523879
+      Data4: -1568180534
+    Path: event:/SFX/GameTwo/PlayerRight
+  <UpSound>k__BackingField:
+    Guid:
+      Data1: -1238775559
+      Data2: 1318674122
+      Data3: -1989936197
+      Data4: 901791809
+    Path: event:/SFX/GameTwo/PlayerUp
+  <DownSound>k__BackingField:
+    Guid:
+      Data1: -1816283473
+      Data2: 1276486455
+      Data3: -1324281160
+      Data4: 494047609
+    Path: event:/SFX/GameTwo/PlayerDown
+  <MissSound>k__BackingField:
+    Guid:
+      Data1: -310450801
+      Data2: 1292230922
+      Data3: -1840072018
+      Data4: 842652017
+    Path: event:/SFX/GameTwo/PlayerMiss
+  <DieSound>k__BackingField:
+    Guid:
+      Data1: 774690624
+      Data2: 1172730996
+      Data3: -2109100626
+      Data4: 962640022
+    Path: event:/SFX/GameTwo/PlayerDie
   <SongSelectBGM>k__BackingField:
     Guid:
       Data1: -1782820924
@@ -849,52 +905,6 @@ MonoBehaviour:
       Data3: -737670502
       Data4: -871026260
     Path: event:/BGM/MinaBGM
---- !u!1 &1010234893
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1010234894}
-  - component: {fileID: 1010234895}
-  m_Layer: 0
-  m_Name: ScoreManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1010234894
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1010234893}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1031192031}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1010234895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1010234893}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 066fc0322029d0646a2d7d9dc63094a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  score: 0
-  maxScore: 72
 --- !u!1 &1031192030
 GameObject:
   m_ObjectHideFlags: 0
@@ -924,57 +934,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1010234894}
   - {fileID: 883307787}
   - {fileID: 1091567524}
-  - {fileID: 1087530937}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1087530936
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1087530937}
-  - component: {fileID: 1087530938}
-  m_Layer: 0
-  m_Name: PauseManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1087530937
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1087530936}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1031192031}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1087530938
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1087530936}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 642b91715aa14fb4090ffb708e2195a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pausePanel: {fileID: 0}
 --- !u!1 &1091567523
 GameObject:
   m_ObjectHideFlags: 0
@@ -1024,18 +987,11 @@ MonoBehaviour:
   SFXVolume: 1
   <musicEvent>k__BackingField:
     Guid:
-      Data1: -86699008
-      Data2: 1289504762
-      Data3: 1465388165
-      Data4: -1181089522
-    Path: event:/BGM/Meet & Tweet
-  <arrowGameBGM>k__BackingField:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 2031462528
+      Data2: 1088448366
+      Data3: -71082872
+      Data4: 669134145
+    Path: event:/BGM/GameTwoBGM
 --- !u!1 &1195892868
 GameObject:
   m_ObjectHideFlags: 0
@@ -1312,6 +1268,50 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2133841427}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1838064881
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1838064883}
+  - component: {fileID: 1838064882}
+  m_Layer: 0
+  m_Name: RhythmnTiming
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1838064882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838064881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73790e0bba7f11a44be25881208140c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1838064883
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838064881}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.254906, y: 358.43304, z: -11.070662}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1850179803
 GameObject:
@@ -1643,3 +1643,4 @@ SceneRoots:
   - {fileID: 169665062}
   - {fileID: 1031192031}
   - {fileID: 338439704}
+  - {fileID: 1838064883}

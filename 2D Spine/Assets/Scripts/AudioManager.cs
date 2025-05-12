@@ -26,13 +26,6 @@ public class AudioManager : MonoBehaviour
     public EventReference musicEvent { get; private set; }
     public EventInstance musicInstance;
 
-    // °×2 ¾À
-    [field: SerializeField]
-    public EventReference arrowGameBGM { get; private set; }
-    private EventInstance arrowMusicInstance;
-    private GCHandle arrowTimelineHandle;
-    private TimelineInfo arrowTimelineInfo;
-
     public static AudioManager instance { get; private set; }
 
     public TimelineInfo timelineInfo;
@@ -217,44 +210,4 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    // °×2¾À
-    public void PlayArrowGameBGM()
-    {
-        if (arrowMusicInstance.isValid())
-        {
-            arrowMusicInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
-            arrowMusicInstance.release();
-        }
-
-        arrowTimelineInfo = new TimelineInfo();
-        arrowMusicInstance = RuntimeManager.CreateInstance(arrowGameBGM);
-        arrowTimelineHandle = GCHandle.Alloc(arrowTimelineInfo, GCHandleType.Pinned);
-        arrowMusicInstance.setUserData(GCHandle.ToIntPtr(arrowTimelineHandle));
-
-        arrowMusicInstance.setCallback(beatCallback, FMOD.Studio.EVENT_CALLBACK_TYPE.TIMELINE_BEAT | FMOD.Studio.EVENT_CALLBACK_TYPE.TIMELINE_MARKER);
-
-        arrowMusicInstance.start();
-    }
-
-    public void StopArrowGameBGM()
-    {
-        if (arrowMusicInstance.isValid())
-        {
-            arrowMusicInstance.setUserData(IntPtr.Zero);
-            arrowMusicInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
-            arrowMusicInstance.release();
-        }
-        if (arrowTimelineHandle.IsAllocated)
-            arrowTimelineHandle.Free();
-    }
-
-    public string GetArrowMarker()
-    {
-        return arrowTimelineInfo?.lastMarker ?? "";
-    }
-
-    public int GetArrowBeat()
-    {
-        return arrowTimelineInfo?.currentBeat ?? 0;
-    }
 }

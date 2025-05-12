@@ -27,6 +27,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1272
+--- !u!114 &-7733191406687662154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/GameTwo/PlayerRight
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/GameTwo/PlayerRight
+  Guid:
+    Data1: -1657794671
+    Data2: 1116688296
+    Data3: -192523879
+    Data4: -1568180534
+  Banks:
+  - {fileID: 8492967191348892505}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 408
 --- !u!114 &-6365877829373351469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69,7 +96,7 @@ MonoBehaviour:
   Path: ../2D-Spine-Fmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638823127635074036
+  lastModified: 638826871556079215
   FileSizes:
   - Name: Desktop
     Value: 1378
@@ -89,11 +116,38 @@ MonoBehaviour:
   Path: ../2D-Spine-Fmod/Build/Desktop/BGM.bank
   Name: BGM
   StudioPath: bank:/BGM
-  lastModified: 638823770776201982
+  lastModified: 638826871555867733
   FileSizes:
   - Name: Desktop
-    Value: 2433920
+    Value: 3096096
   Exists: 1
+--- !u!114 &-5192535211557807543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/GameTwo/PlayerUp
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/GameTwo/PlayerUp
+  Guid:
+    Data1: -1238775559
+    Data2: 1318674122
+    Data3: -1989936197
+    Data4: 901791809
+  Banks:
+  - {fileID: 8492967191348892505}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 552
 --- !u!114 &-4317075666347264176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -121,6 +175,87 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 95000
+--- !u!114 &-3826836101908204303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/GameTwo/PlayerMiss
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/GameTwo/PlayerMiss
+  Guid:
+    Data1: -310450801
+    Data2: 1292230922
+    Data3: -1840072018
+    Data4: 842652017
+  Banks:
+  - {fileID: 8492967191348892505}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 456
+--- !u!114 &-3246685735422367150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/GameTwo/PlayerLeft
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/GameTwo/PlayerLeft
+  Guid:
+    Data1: -1077730490
+    Data2: 1233260592
+    Data3: -1079445609
+    Data4: -632344434
+  Banks:
+  - {fileID: 8492967191348892505}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1056
+--- !u!114 &-1881092437457359258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BGM/GameTwoBGM
+  m_EditorClassIdentifier: 
+  Path: event:/BGM/GameTwoBGM
+  Guid:
+    Data1: 2031462528
+    Data2: 1088448366
+    Data3: -71082872
+    Data4: 669134145
+  Banks:
+  - {fileID: -5710213925754228842}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 50416
 --- !u!114 &-1795436566965975241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -163,10 +298,10 @@ MonoBehaviour:
   Path: ../2D-Spine-Fmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638823127635094055
+  lastModified: 638826871556117961
   FileSizes:
   - Name: Desktop
-    Value: 1490
+    Value: 1866
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -199,13 +334,22 @@ MonoBehaviour:
   - {fileID: -1795436566965975241}
   - {fileID: 3980613173873702017}
   - {fileID: 4901272766233492022}
+  - {fileID: -1881092437457359258}
+  - {fileID: 6507670920719665125}
+  - {fileID: 7911316479578262265}
+  - {fileID: -3246685735422367150}
+  - {fileID: 54392391930021769}
+  - {fileID: -3826836101908204303}
+  - {fileID: -7733191406687662154}
+  - {fileID: 8532281669255947758}
+  - {fileID: -5192535211557807543}
   EditorParameters: []
   MasterBanks:
   - {fileID: -6276430803421406748}
   StringsBanks:
   - {fileID: -1358724805569595803}
   cacheVersion: 131847
-  cacheTime: 638823770776201982
+  cacheTime: 638826871558737584
   SerializableEventsDict:
   - key: event:/BGM/Meet & Tweet
     index: 0
@@ -233,6 +377,51 @@ MonoBehaviour:
     index: 11
   - key: event:/SFX/OptionCloseButton
     index: 12
+  - key: event:/BGM/GameTwoBGM
+    index: 13
+  - key: event:/SFX/GameTwo/PlayerCough
+    index: 14
+  - key: event:/SFX/GameTwo/PlayerDie
+    index: 15
+  - key: event:/SFX/GameTwo/PlayerLeft
+    index: 16
+  - key: event:/SFX/GameTwo/NPC
+    index: 17
+  - key: event:/SFX/GameTwo/PlayerMiss
+    index: 18
+  - key: event:/SFX/GameTwo/PlayerRight
+    index: 19
+  - key: event:/SFX/GameTwo/PlayerDown
+    index: 20
+  - key: event:/SFX/GameTwo/PlayerUp
+    index: 21
+--- !u!114 &54392391930021769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/GameTwo/NPC
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/GameTwo/NPC
+  Guid:
+    Data1: -2117900168
+    Data2: 1102136935
+    Data3: -1612691796
+    Data4: -533780624
+  Banks:
+  - {fileID: 8492967191348892505}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1056
 --- !u!114 &2440505454989609171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -395,6 +584,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 456
+--- !u!114 &6507670920719665125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/GameTwo/PlayerCough
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/GameTwo/PlayerCough
+  Guid:
+    Data1: 312090155
+    Data2: 1104962461
+    Data3: 1218369674
+    Data4: -606916531
+  Banks:
+  - {fileID: 8492967191348892505}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 360
 --- !u!114 &6559181729845818899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -449,6 +665,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 85054
+--- !u!114 &7911316479578262265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/GameTwo/PlayerDie
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/GameTwo/PlayerDie
+  Guid:
+    Data1: 774690624
+    Data2: 1172730996
+    Data3: -2109100626
+    Data4: 962640022
+  Banks:
+  - {fileID: 8492967191348892505}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 648
 --- !u!114 &8492967191348892505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -464,11 +707,38 @@ MonoBehaviour:
   Path: ../2D-Spine-Fmod/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638823127639819276
+  lastModified: 638826871558737584
   FileSizes:
   - Name: Desktop
-    Value: 140768
+    Value: 193504
   Exists: 1
+--- !u!114 &8532281669255947758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/GameTwo/PlayerDown
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/GameTwo/PlayerDown
+  Guid:
+    Data1: -1816283473
+    Data2: 1276486455
+    Data3: -1324281160
+    Data4: 494047609
+  Banks:
+  - {fileID: 8492967191348892505}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 552
 --- !u!114 &9167823904864978597
 MonoBehaviour:
   m_ObjectHideFlags: 0

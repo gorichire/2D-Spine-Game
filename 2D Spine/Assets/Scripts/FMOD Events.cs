@@ -22,6 +22,14 @@ public class FMODEvents : MonoBehaviour
     [field: SerializeField] public EventReference OptionSound { get; private set; }
     [field: SerializeField] public EventReference OptionCloseSound { get; private set; }
     [field: SerializeField] public EventReference GameSelectSound { get; private set; }
+    [field: SerializeField] public EventReference NPCSound { get; private set; }
+    [field: SerializeField] public EventReference CoughSound { get; private set; }
+    [field: SerializeField] public EventReference LeftSound { get; private set; }
+    [field: SerializeField] public EventReference RightSound { get; private set; }
+    [field: SerializeField] public EventReference UpSound { get; private set; }
+    [field: SerializeField] public EventReference DownSound { get; private set; }
+    [field: SerializeField] public EventReference MissSound { get; private set; }
+    [field: SerializeField] public EventReference DieSound { get; private set; }
 
 
     [field: Header("BGM")]
