@@ -59,16 +59,16 @@ public class InputJudgeTwo : MonoBehaviour
         switch (dir)
         {
             case Direction.Up:
-                playerAnimator.SetTrigger("UpTrap");
+                playerAnimator.SetTrigger("TakeUp");
                 break;
             case Direction.Down:
-                playerAnimator.SetTrigger("DownTrap");
+                playerAnimator.SetTrigger("TakeDown");
                 break;
             case Direction.Left:
-                playerAnimator.SetTrigger("LeftTrap");
+                playerAnimator.SetTrigger("TakeLeft");
                 break;
             case Direction.Right:
-                playerAnimator.SetTrigger("RightTrap");
+                playerAnimator.SetTrigger("TakeRight");
                 break;
         }
     }
@@ -78,16 +78,16 @@ public class InputJudgeTwo : MonoBehaviour
         switch (dir)
         {
             case Direction.Up:
-                playerAnimator.SetTrigger("UpSuccess");
+                playerAnimator.SetTrigger("Up");
                 break;
             case Direction.Down:
-                playerAnimator.SetTrigger("DownSuccess");
+                playerAnimator.SetTrigger("Down");
                 break;
             case Direction.Left:
-                playerAnimator.SetTrigger("LeftSuccess");
+                playerAnimator.SetTrigger("Left");
                 break;
             case Direction.Right:
-                playerAnimator.SetTrigger("RightSuccess");
+                playerAnimator.SetTrigger("Right");
                 break;
         }
     }
@@ -97,16 +97,16 @@ public class InputJudgeTwo : MonoBehaviour
         switch (dir)
         {
             case Direction.Up:
-                playerAnimator.SetTrigger("UpFail");
+                playerAnimator.SetTrigger("WrongUp");
                 break;
             case Direction.Down:
-                playerAnimator.SetTrigger("DownFail");
+                playerAnimator.SetTrigger("WrongDown");
                 break;
             case Direction.Left:
-                playerAnimator.SetTrigger("LeftFail");
+                playerAnimator.SetTrigger("WrongLeft");
                 break;
             case Direction.Right:
-                playerAnimator.SetTrigger("RightFail");
+                playerAnimator.SetTrigger("WrongRight");
                 break;
         }
     }
@@ -118,7 +118,7 @@ public class InputJudgeTwo : MonoBehaviour
         if (!inputReceived && expectedDirection != trapDirection)
         {
             Debug.Log("입력 없음 – IdleMiss 발생!");
-            playerAnimator.SetTrigger("IdleMiss");
+            playerAnimator.SetTrigger("IdleWrong");
             playerHealth.TakeDamage();
         }
     }

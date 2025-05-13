@@ -96,7 +96,7 @@ MonoBehaviour:
   Path: ../2D-Spine-Fmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638826871556079215
+  lastModified: 638823127635074036
   FileSizes:
   - Name: Desktop
     Value: 1378
@@ -116,7 +116,7 @@ MonoBehaviour:
   Path: ../2D-Spine-Fmod/Build/Desktop/BGM.bank
   Name: BGM
   StudioPath: bank:/BGM
-  lastModified: 638826871555867733
+  lastModified: 638827236098537655
   FileSizes:
   - Name: Desktop
     Value: 3096096
@@ -298,7 +298,7 @@ MonoBehaviour:
   Path: ../2D-Spine-Fmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638826871556117961
+  lastModified: 638827236098577832
   FileSizes:
   - Name: Desktop
     Value: 1866
@@ -349,7 +349,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -1358724805569595803}
   cacheVersion: 131847
-  cacheTime: 638826871558737584
+  cacheTime: 638827236098592888
   SerializableEventsDict:
   - key: event:/BGM/Meet & Tweet
     index: 0
@@ -707,7 +707,7 @@ MonoBehaviour:
   Path: ../2D-Spine-Fmod/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638826871558737584
+  lastModified: 638827236098592888
   FileSizes:
   - Name: Desktop
     Value: 193504
